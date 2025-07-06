@@ -1,0 +1,1607 @@
+{
+  "monsters": [
+    [
+      "Legion",
+      {
+        "name": "Legion",
+        "source": "Monstershuffler.com",
+        "type": "Large swarm of Medium Undeads (Human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "Neutral Evil",
+        "hp": 285,
+        "hit_dice": "30d8 + 150",
+        "ac": 11,
+        "speed": "walk 30 ft.",
+        "stats": [
+          12,
+          12,
+          20,
+          20,
+          15,
+          20
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "psychic",
+        "damage_vulnerabilities": "radiant",
+        "condition_immunities": "frighten , laughter, sleep",
+        "saves": [
+          {
+            "constitution": 11
+          },
+          {
+            "charisma": 11
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 11
+          },
+          {
+            "Perception": 8
+          },
+          {
+            "Deception": 11
+          }
+        ],
+        "senses": "passive Perception 18",
+        "languages": "Common, Deep Speech, Ignan, Telepathy 30 ft.",
+        "cr": "18",
+        "traits": [
+          {
+            "name": "Legendary Resistance (2/Day)",
+            "desc": "If Legion fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Psionic Mind",
+            "desc": "Spells of the Enchantment school and spells that deal psychic damage require no verbal or somatic components for Legion, and they require no material components unless they are consumed by the spell."
+          },
+          {
+            "name": "Sorcery Points",
+            "desc": "Legion has 35 sorcery points that it can use to fuel the following abilities:\n- It can spend 2 sorcery points to use its Quickened Spell bonus action.\n- It can spend 1 sorcery point to reroll the d20 of a failed ability check.\n- It can spend 3 sorcery points to give a creature disadvantage on the saving throw of one of its spells.\n- It can spend a number of sorcery points equal to to the spell's level they are casting to make it target a second creature. To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Mind Sliver",
+            "desc": "Ranged Spell Attack: +11 to hit,  range 60 ft, one target. Hit: 40 (10d6 + 5) psychic damage. Targets hit by this spell subtract 1d4 from the next saving throw they make before the end of Legion's next turn."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Legion casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 19, +11 to hit with spell attacks):\n\nAt will: mending, minor illusion, infestation4/day each: charm person, dissonant whispers, arms of hadar3/day each: hold monster, rary's telepathic bond, black tentacles, compulsion, enemies abound, water breathing, detect thoughts, hold person2/day each: psychic scream, dominate monster, plane shift, mental prison"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Misty Step",
+            "desc": "Legion teleports up to 60 feet to an unoccupied space that it can see."
+          },
+          {
+            "name": "Quickened Spell (2 Sorcery Points)",
+            "desc": "Legion spends 2 sorcery points to cast a spell that has a casting time of 1 action as a bonus action."
+          },
+          {
+            "name": "Revelation in Flesh",
+            "desc": "Legion unleashes the aberrant truth hidden within itself. Legion gains one of the following benefits:\n- Its body, along with any equipment it is wearing or carrying, becomes slimy and pliable. It can move through any space as narrow as 1 inch without squeezing, and it can spend 5 feet of movement to escape from nonmagical restraints or being grappled.\n-It gains a swimming speed equal to twice its walking speed, and it can breathe underwater. Moreover, gills grow from its neck or fan out from behind its ears, its fingers become webbed, or it grow writhing cilia that extend through its clothing.\n- It gains a flying speed equal to its walking speed and can hover. As it fly, its skin glistens with mucus or shines with an otherworldly light.\n- It can see any invisible creature within 60 feet of it, provided it isn't behind total cover. Its eyes also turn black or become writhing sensory tendrils."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Shield",
+            "desc": "Legion protects itself against an incoming attack with an invisible barrier of magical force. It gains a +10 bonus to AC until the start of its next turn, including against the triggering attack, and it takes no damage from magic missile."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Quickened Spell (Costs 2 Actions)",
+            "desc": "Legion casts a spell of 4th level or lower from its list of spells."
+          },
+          {
+            "name": "Warping Implosion (Costs 3 Actions)",
+            "desc": "Legion teleports to an unoccupied space it can see within 120 feet of it. Immediately after it disappears, each creature within 30 feet of the space it left must make a Strength saving throw, or take 16 (3d10) force damage and be pulled straight toward the space Legion left, ending prone in an unoccupied space as close to its former space as possible. On a successful save, the creature takes half as much damage and isn't pulled."
+          },
+          {
+            "name": "Sorcerous Restoration",
+            "desc": "Legion regains 3 sorcery points."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Henry Jeckyl",
+      {
+        "name": "Henry Jeckyl",
+        "source": "Monstershuffler.com",
+        "type": "Medium Beast (male Human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "Chaotic Evil",
+        "hp": 230,
+        "hit_dice": "20d8 + 140",
+        "ac": 18,
+        "speed": "walk 45 ft.",
+        "stats": [
+          20,
+          16,
+          20,
+          20,
+          16,
+          12
+        ],
+        "damage_immunities": "psychic",
+        "damage_resistances": "bludgeoning, piercing, slashing",
+        "damage_vulnerabilities": "cold",
+        "condition_immunities": "charmed, frightened, grappled, petrified",
+        "saves": [
+          {
+            "strength": 9
+          },
+          {
+            "constitution": 9
+          }
+        ],
+        "skillsaves": [
+          {
+            "Sleight of Hand": 7
+          },
+          {
+            "Investigation": 9
+          },
+          {
+            "Perception": 7
+          },
+          {
+            "Intimidation": 5
+          },
+          {
+            "Performance": 5
+          }
+        ],
+        "senses": "passive Perception 17",
+        "languages": "Abyssal, Common",
+        "cr": "12",
+        "traits": [
+          {
+            "name": "Legendary Resistance (2/Day)",
+            "desc": "If Dr Jekyl -  fails a saving throw, he can choose to succeed instead."
+          },
+          {
+            "name": "Reckless Attacks",
+            "desc": "Dr Jekyl -  throws aside all concern for defense to attack with fierce desperation. He gains advantage on melee weapon attack rolls using his Strength during one turn, but attack rolls against him have advantage until the next turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "While in Beast Form, Dr Jekyl -  makes four  attacks with his claws. While in humanoid form he makes four  attacks with his Dagger."
+          },
+          {
+            "name": "Claws (Beast Form)",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 13 (1d6 + 10) slashing damage."
+          },
+          {
+            "name": "Dagger",
+            "desc": "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft or range 20/60 ft, one target. Hit: 12 (1d4 + 10) piercing damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Beast Form",
+            "desc": "Dr Jekyl -  transforms, revealing the bestial power within himself. While in Beast Form, he gains new abilities and the following benefits if he isn't wearing any armor:\n- he gains advantage on Strength checks and Strength saving throws;\n- he gains resistance to bludgeoning, piercing and slashing damage\n- when Dr Jekyl -  drops to 0 hit points, he can make a DC 10 Constitution saving throw. If he succeeds, he drops to 1 hit point instead. Each time he uses this feature before a short rest, the DC increases by 5.\nDr Jekyl - 's Beast Form lasts until he is knocked unconscious or until he chooses to end it."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Tail Swipe (Beast Form)",
+            "desc": "When a creature within 10 feet attacks Dr Jekyl -  with a melee or ranged attack, he can swipe his tail towards the creature, applying a +6 bonus to his AC against that attack."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Call the Hunt (Costs 2 Actions)",
+            "desc": "Dr Jekyl -  lets out a furious howl to incite his allies. When he does, allies within 30 feet who can hear him have advantage on their next attack roll and are also immune to the Frightened condition until the end of their next turn."
+          },
+          {
+            "name": "Extra Attack",
+            "desc": "Dr Jekyl -  makes an additional attack with one of his Claws (Beast Form) or Dagger."
+          },
+          {
+            "name": "Reposition",
+            "desc": "Dr Jekyl -  moves 10 feet without provoking Opportunity Attacks."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Erzsébet Bathory",
+      {
+        "name": "Erzsébet Bathory",
+        "source": "Monstershuffler.com",
+        "type": "Medium Undead (female Banshee)",
+        "subtype": "",
+        "size": "",
+        "alignment": "Lawful Evil",
+        "hp": 220,
+        "hit_dice": "21d8 + 126",
+        "ac": 17,
+        "speed": "fly 120 ft. (hover)",
+        "stats": [
+          18,
+          24,
+          22,
+          28,
+          24,
+          26
+        ],
+        "damage_immunities": "cold; fire; necrotic; nonmagical bludgeoning, piercing, and slashing; poison",
+        "damage_resistances": "lightning",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, poisoned, restrained",
+        "saves": [
+          {
+            "constitution": 13
+          },
+          {
+            "intelligence": 16
+          },
+          {
+            "wisdom": 14
+          },
+          {
+            "charisma": 15
+          }
+        ],
+        "skillsaves": [
+          {
+            "Stealth": 21
+          },
+          {
+            "Arcana": 23
+          },
+          {
+            "History": 16
+          },
+          {
+            "Investigation": 16
+          },
+          {
+            "Insight": 14
+          },
+          {
+            "Perception": 21
+          },
+          {
+            "Deception": 22
+          },
+          {
+            "Intimidation": 22
+          },
+          {
+            "Persuasion": 15
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 31",
+        "languages": "All, Telepathy 240 ft.",
+        "cr": "22",
+        "traits": [
+          {
+            "name": "Ethereal Sight",
+            "desc": "Erzsébet can see 60 feet into the Ethereal Plane when she is on the Material Plane, and vice versa."
+          },
+          {
+            "name": "Fear Aura",
+            "desc": "Any creature hostile to Erzsébet that starts its turn within 20 feet of Erzsébet must make a DC 23 Wisdom saving throw, unless Erzsébet is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature's saving throw is successful, the creature is immune to Erzsébet's Fear Aura for the next 24 hours."
+          },
+          {
+            "name": "Invisibility",
+            "desc": "Erzsébet can become invisible at will as in the greater invisibility spell, except that it takes no action for her to become invisible in this way, there is no time limitation on the invisibility, and she does not need to maintain concentration."
+          },
+          {
+            "name": "Incorporeal Rejuvenation",
+            "desc": "If she dies, Erzsébet returns to life in 1 day and regains all her hit points. Only a wish spell or divine intervention can prevent this trait from functioning."
+          },
+          {
+            "name": "Undead Gaze",
+            "desc": "Magical darkness doesn't impede Erzsébet's darkvision."
+          },
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If Erzsébet fails a saving throw, she can choose to succeed instead."
+          },
+          {
+            "name": "Incorporeal Movement",
+            "desc": "Erzsébet can move through other creatures and objects as if they were difficult terrain. She takes 11 (2d10) force damage if she ends her turn inside an object."
+          },
+          {
+            "name": "Turn Immunity",
+            "desc": "Erzsébet is immune to any effect that turns undead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Erzsébet makes four  attacks, either with her Corrupting Touch or her Withering Bolt. Alternatively, she can use her Wail(if available) or cast a spell from her list of prepared spells."
+          },
+          {
+            "name": "Corrupting Touch",
+            "desc": "Melee Spell Attack: +16 to hit, reach 5 ft, one target. Hit: 26 (5d6 + 9) necrotic damage."
+          },
+          {
+            "name": "Withering Bolt",
+            "desc": "Ranged Spell Attack: +16 to hit,  range 80/240 ft, one target. Hit: 27 (4d8 + 9) necrotic damage."
+          },
+          {
+            "name": "Wail (1/Short or Long Rest)",
+            "desc": "Erzsébet releases a mournful wail, provided that she isn't in sunlight. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a  On a failure, a creature drops to 0 hit points. On a success, a creature takes 24 (7d6) psychic damage."
+          },
+          {
+            "name": "Horrifying Visage",
+            "desc": "Each non-undead creature within 90 feet of Erzsébet that can see her must succeed on a DC 24 Wisdom saving throw or be frightened for 1 minute. If the save fails by 5 or more, the target also ages 1d4 × 10 years. A frightened target can repeat the saving throw at the end of each of its turns, ending the frightened condition on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to Erzsébet's Horrifying Visage for the next 24 hours. The aging effect can be reversed with a greater restoration spell, but only within 24 hours of it occurring."
+          },
+          {
+            "name": "Etherealness",
+            "desc": "Erzsébet magically enters the Ethereal Plane from the Material Plane, or vice versa."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Erzsébet casts one of the following spells, using Intelligence as the spellcasting ability (spell save DC 24, +16 to hit with spell attacks):\n\nAt will: see invisibility, hold person, darkness, crown of madness, blindness/deafness, aganazzar's scorcher, ray of sickness, hex, hellish rebuke, faerie fire, dissonant whispers, cause fear, bane, minor illusion, mage hand, toll the dead, chill touch, eldritch blast4/day each: negative energy flood, geas, dominate person, contagion, cloudkill, antilife shell, phantasmal killer, dominate beast, blight, black tentacles, major image, glyph of warding, bestow curse, animate dead2/day each: weird, psychic scream, feeblemind, abi-dalzim's horrid writing, symbol, forcecage, finger of death, soul cage, harm, circle of death"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Misty Step",
+            "desc": "Erzsébet teleports up to 50 feet to an unoccupied space that she can see."
+          }
+        ],
+        "reactions": [],
+        "legendary_actions": [
+          {
+            "name": "Attack",
+            "desc": "Erzsébet makes one Corrupting Touch attack or one Withering Bolt attack."
+          },
+          {
+            "name": "Channel Negative Energy (Costs 2 Actions)",
+            "desc": "Erzsébet magically unleashes negative energy. Creatures within 60 feet of Erzsébet, including ones behind barriers and around corners, can't regain hit points until the end of Erzsébet's next turn."
+          },
+          {
+            "name": "Disrupt Life (Costs 3 Actions)",
+            "desc": "Each non-undead creature within 20 feet of Erzsébet must make a DC 21 Constitution saving throw against this magic, taking 24 (7d6) necrotic damage on a failed save, or half as much damage on a successful one."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Bertrand Caillet",
+      {
+        "name": "Bertrand Caillet",
+        "source": "Monstershuffler.com",
+        "type": "Medium Beast (male Human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "Chaotic Evil",
+        "hp": 230,
+        "hit_dice": "20d8 + 140",
+        "ac": 15,
+        "speed": "walk 48 ft.",
+        "stats": [
+          20,
+          19,
+          20,
+          10,
+          9,
+          10
+        ],
+        "damage_immunities": "all except silver",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "silver",
+        "condition_immunities": "",
+        "saves": [
+          {
+            "strength": 9
+          },
+          {
+            "constitution": 9
+          }
+        ],
+        "skillsaves": [
+          {
+            "Sleight of Hand": 8
+          },
+          {
+            "Nature": 4
+          },
+          {
+            "Animal Handling": 3
+          }
+        ],
+        "senses": "passive Perception 9",
+        "languages": "Common, Deep Speech",
+        "cr": "12",
+        "traits": [
+          {
+            "name": "Legendary Resistance (2/Day)",
+            "desc": "If Bertrand fails a saving throw, he can choose to succeed instead."
+          },
+          {
+            "name": "Danger Sense",
+            "desc": "Bertrand has advantage on Initiative rolls and Dexterity saving throws against effects that he can see, such as traps and spells. Additionaly, he can't be surprised at the beginning of combat if he isn't incapacitated."
+          },
+          {
+            "name": "Reckless Attacks",
+            "desc": "Bertrand throws aside all concern for defense to attack with fierce desperation. He gains advantage on melee weapon attack rolls using his Strength during one turn, but attack rolls against him have advantage until the next turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "While in Beast Form, Bertrand makes one attack with his bite or four  attacks with his claws. While in humanoid form he makes four  attacks with his Trident."
+          },
+          {
+            "name": "Bite (Beast Form)",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 16 (1d12 + 10) piercing damage. When Bertrand damages a creature with this bite, he regains 58 hit points and the creature must succeed on a DC 17 Wisdom saving throw. On a failed save, the creature must use its reaction to make a melee attack against another creature of Bertrand's choice that he can see, even if the creature has spent its reaction already on that round."
+          },
+          {
+            "name": "Claws (Beast Form)",
+            "desc": "Melee Weapon Attack: +9 to hit, reach 5 ft, one target. Hit: 13 (1d6 + 10) slashing damage."
+          },
+          {
+            "name": "Trident",
+            "desc": "Melee or Ranged Weapon Attack: +9 to hit, reach 5 ft or range 20/60 ft, one target. Hit: 13 (1d6 + 10) piercing damage, or 9 (1d8 + 5) piercing damage if used with two hands to make a melee attack."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Beast Form",
+            "desc": "Bertrand transforms, revealing the bestial power within himself. While in Beast Form, he gains new abilities and the following benefits if he isn't wearing any armor:\n- he gains advantage on Strength checks and Strength saving throws;\n- he gains resistance to bludgeoning, piercing and slashing damage\n- when Bertrand drops to 0 hit points, he can make a DC 10 Constitution saving throw. If he succeeds, he drops to 1 hit point instead. Each time he uses this feature before a short rest, the DC increases by 5.\nBertrand's Beast Form lasts until he is knocked unconscious or until he chooses to end it."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Tail Swipe (Beast Form)",
+            "desc": "When a creature within 10 feet attacks Bertrand with a melee or ranged attack, he can swipe his tail towards the creature, applying a +6 bonus to his AC against that attack."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Call the Hunt (Costs 2 Actions)",
+            "desc": "Bertrand lets out a furious howl to incite his allies. When he does, allies within 30 feet who can hear him have advantage on their next attack roll and are also immune to the Frightened condition until the end of their next turn."
+          },
+          {
+            "name": "Extra Attack",
+            "desc": "Bertrand makes an additional attack with one of his Claws (Beast Form) or Trident."
+          },
+          {
+            "name": "Reposition",
+            "desc": "Bertrand moves 10 feet without provoking Opportunity Attacks."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Minor Death Knight",
+      {
+        "name": "Minor Death Knight",
+        "type": "No muerto (caballero maldito)",
+        "alignment": "Maligno Legal",
+        "armor_class": 18,
+        "hp": 85,
+        "speed": 30,
+        "attributes": {
+          "strength": 18,
+          "dexterity": 11,
+          "constitution": 16,
+          "intelligence": 12,
+          "wisdom": 14,
+          "charisma": 15
+        },
+        "damage_immunities": [
+          "necrótico",
+          "psíquico",
+          "daño de armas mágicas"
+        ],
+        "condition_immunities": [
+          "aterrorizado",
+          "envenenado",
+          "exhausto",
+          "agarrado",
+          "petrificado"
+        ],
+        "senses": {
+          "darkvision": 60,
+          "passive_perception": 14
+        },
+        "languages": [
+          "común",
+          "infernal"
+        ],
+        "challenge_rating": 7,
+        "traits": {
+          "aura_de_terror": {
+            "description": "Cualquier criatura hostil que comience su turno a 10 pies del Caballero de la Muerte debe hacer una tirada de salvación de Sabiduría CD 14 o quedar asustada durante 1 minuto. Puede repetir la tirada al final de cada turno, terminando el efecto en un éxito."
+          },
+          "rebote_del_mal": {
+            "description": "Como reacción cuando recibe un ataque cuerpo a cuerpo, el Caballero de la Muerte puede hacer que el atacante haga una tirada de salvación de Carisma CD 15. Si falla, recibe el mismo daño que infligió al Caballero de la Muerte."
+          }
+        },
+        "actions": {
+          "espada_larga": {
+            "attack_type": "Melee Weapon Attack",
+            "to_hit": 8,
+            "reach": 5,
+            "target": "Un objetivo",
+            "damage": {
+              "slashing": "11 (1d10 + 4)",
+              "necrotic": "10 (3d6)"
+            }
+          },
+          "explosion_infernal": {
+            "description": "El Caballero de la Muerte exhala una nube de llamas necróticas en un cono de 15 pies a una distancia de 60 pies. Cada criatura en el área debe hacer una tirada de salvación de Destreza CD 15, recibiendo 35 (10d6) de daño necrótico en un fracaso, o la mitad en un éxito."
+          }
+        }
+      }
+    ],
+    [
+      "Vlad III",
+      {
+        "name": "Vlad III",
+        "source": "Monstershuffler.com",
+        "type": "Medium Undead (Shapechanger)",
+        "subtype": "",
+        "size": "",
+        "alignment": "Typically Lawful Evil",
+        "hp": 675,
+        "hit_dice": "50d8 + 450",
+        "ac": 30,
+        "speed": "walk 30 ft.",
+        "stats": [
+          29,
+          29,
+          29,
+          28,
+          26,
+          29
+        ],
+        "damage_immunities": "necrotic; all except silver",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "a wooden stake, silver, sunlight",
+        "condition_immunities": "charmed, frightened",
+        "saves": [
+          {
+            "dexterity": 20
+          },
+          {
+            "wisdom": 19
+          },
+          {
+            "charisma": 20
+          }
+        ],
+        "skillsaves": [
+          {
+            "Stealth": 20
+          },
+          {
+            "Perception": 19
+          }
+        ],
+        "senses": "darkvision 120 ft., passive Perception 29",
+        "languages": "The languages it knew in life",
+        "cr": "39",
+        "traits": [
+          {
+            "name": "Shapechanger",
+            "desc": "If the vlad isn’t in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or back into its true form.\n\nWhile in bat form, the vlad can’t speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.\n\nWhile in mist form, the vlad can’t take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature’s space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can’t pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+          },
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If the vlad fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Misty Escape",
+            "desc": "When it drops to 0 hit points outside its resting place, the vlad transforms into a cloud of mist (as in the Shapechanger trait) instead of falling unconscious, provided that it isn’t in sunlight or running water. If it can’t transform, it is destroyed.\n\nWhile it has 0 hit points in mist form, it can’t revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then paralyzed until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+          },
+          {
+            "name": "Regeneration",
+            "desc": "The vlad regains 87 hit points at the start of its turn if it has at least 1 hit point and isn’t in sunlight or running water. If the vlad takes radiant damage or damage from holy water, this trait doesn’t function at the start of the vlad’s next turn."
+          },
+          {
+            "name": "Spider Climb",
+            "desc": "The vlad can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          },
+          {
+            "name": "Vampire Weaknesses",
+            "desc": "The vlad has the following flaws:\n- _Forbiddance._ The vlad can’t enter a residence without an invitation from one of the occupants.\n- _Harmed by Running Water._ The vlad takes 87 acid damage if it ends its turn in running water.\n- _Stake to the Heart._ If a piercing weapon made of wood is driven into the vlad’s heart while the vlad is incapacitated in its resting place, the vlad is paralyzed until the stake is removed.\n- _Sunlight Hypersensitivity._ The vlad takes 87 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "When in Vampire form, the vlad makes two attacks, only one of which can be a bite attack."
+          },
+          {
+            "name": "Unarmed Strike (Vampire Form Only)",
+            "desc": "Melee Weapon Attack: +20 to hit, reach 5 ft, one target. Hit: 40 (10d8 + 9) bludgeoning damage. Instead of dealing damage, the vlad can grapple the target (escape DC 29)."
+          },
+          {
+            "name": "Bite (Bat or Vampire Form Only",
+            "desc": "_Melee Weapon Attack:_ +20 to hit, reach 5 ft., one willing creature, or a creature that is grappled by the vlad, incapacitated, or restrained. _Hit:_ 12 (1d6 + 9) piercing damage plus 24 (7d6) necrotic damage. The target’s hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vlad regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a vampire spawn under the vlad’s control."
+          },
+          {
+            "name": "Charm",
+            "desc": "The vlad targets one humanoid it can see within 30 feet of  it. If the target can see the vlad, the target must succeed on a DC 28 Wisdom saving throw against this magic or be charmed by the vlad. The charmed target regards the vlad as a trusted friend to be heeded and protected. Although the target isn’t under the vlad’s control, it takes the vlad’s requests or actions in the most favorable way it can, and it is a willing target for the vlad’s bite attack.\n\nEach time the vlad or the vlad’s companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vlad is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+          },
+          {
+            "name": "Children of the Night (1/Day)",
+            "desc": "The vlad magically calls 6d4 swarms of bats or rats, provided that the sun isn’t up. While outdoors, the vlad can call 9d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vlad and obeying its spoken commands. The beasts remain for 1 hour, until the vlad dies, or until the vlad dismisses them as a bonus action."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [
+          {
+            "name": "Move",
+            "desc": "The vlad moves up to its speed without provoking opportunity attacks."
+          },
+          {
+            "name": "Unarmed Strike",
+            "desc": "The vlad makes one unarmed strike."
+          },
+          {
+            "name": "Bite (Costs 2 Actions)",
+            "desc": "The vlad makes one bite attack."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Abraham Van Helsing",
+      {
+        "name": "Abraham Van Helsing",
+        "source": "Monstershuffler.com",
+        "type": "Medium Humanoid",
+        "subtype": "",
+        "size": "",
+        "alignment": "Typically Lawful Neutral",
+        "hp": 203,
+        "hit_dice": "25d8 + 91",
+        "ac": 15,
+        "speed": "walk 40 ft.",
+        "stats": [
+          10,
+          30,
+          10,
+          14,
+          16,
+          10
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [
+          {
+            "dexterity": 20
+          },
+          {
+            "wisdom": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "Acrobatics": 13
+          },
+          {
+            "Stealth": 13
+          },
+          {
+            "Perception": 14
+          }
+        ],
+        "senses": "passive Perception 22",
+        "languages": "Common",
+        "cr": "9",
+        "traits": [
+          {
+            "name": "Repositioning",
+            "desc": "The hunter  after attacking can move 10ft without provoking an attack of opportunity."
+          },
+          {
+            "name": "Dodge",
+            "desc": "The hunter can dodge any attack, to be hit he has to fail on a 20d.\n\n1-10 fail, 11-20 succeed "
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The hunter archer  can do two precise shootings per turn."
+          },
+          {
+            "name": "Precise Shooting",
+            "desc": "Crossbow: +9 to hit,  range 150/600 ft, one target. Hit: 14 (2d8 + 5) piercing damage, on hit the target has to make a DC 15 Constitution, if fail it will start bleeding (Exhaustion + 1)."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [
+          {
+            "name": "Protective Instinct",
+            "desc": "If an enemy moves within 20ft, The hunter archer  gains an attack of opportunity (Without the bleeding effect)."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Reacter",
+            "desc": "The Hunter can react to every player moving with no limit."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Richter Belmont",
+      {
+        "name": "Richter Belmont",
+        "source": "Monstershuffler.com",
+        "type": "Medium Humanoid",
+        "subtype": "",
+        "size": "",
+        "alignment": "Typically Lawful Neutral",
+        "hp": 203,
+        "hit_dice": "25d8 + 91",
+        "ac": 18,
+        "speed": "walk 40 ft.",
+        "stats": [
+          10,
+          30,
+          10,
+          14,
+          16,
+          10
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [
+          {
+            "dexterity": 20
+          },
+          {
+            "wisdom": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "Acrobatics": 13
+          },
+          {
+            "Stealth": 13
+          },
+          {
+            "Perception": 14
+          }
+        ],
+        "senses": "passive Perception 22",
+        "languages": "Common",
+        "cr": "9",
+        "traits": [
+          {
+            "name": "Repositioning",
+            "desc": "The hunter  after attacking can move 10ft without provoking an attack of opportunity."
+          },
+          {
+            "name": "Dodge",
+            "desc": "The hunter can dodge any attack, to be hit he has to fail on a 20d.\n\n1-10 fail, 11-20 succeed "
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The hunter archer  can do two precise hits per turn."
+          },
+          {
+            "name": "Precise Shooting",
+            "desc": "Vampire Killer: +9 to hit,  range 5 ft, one target. Hit: 16(1d12 + 10) radiant damage, on hit the target has to make a DC 15 Constitution, if fail it will fall prone."
+          },
+          {
+            "name": "",
+            "desc": "Throwing knife: +9 to hit,  range 5 ft, one target. Hit: 18(2d8 + 10) piercing damage, on hit the target has to make a DC 15 Constitution, if fail it will start blleding (exhaustion + 1)"
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [
+          {
+            "name": "Protective Instinct",
+            "desc": "If an enemy moves within 20ft, The hunter archer  gains an attack of opportunity (Without the bleeding effect)."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Reacter (unlimited)",
+            "desc": "The Hunter can react to every player moving with no limit."
+          },
+          {
+            "name": "Final atack",
+            "desc": "If the hunter HP becomes 0, it will unleash a final attack, knives will start raining.\nEveryone must roll a d20, and substract the result from 20 (e.g. roll 15, 20-15 = 5) and receive hits equal to the result.\nHit: 14(1d8 + 10)"
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Traidor",
+      {
+        "name": "Traidor",
+        "source": "Monstershuffler.com",
+        "type": "Medium Humanoid",
+        "subtype": "",
+        "size": "",
+        "alignment": "Lawful Evil",
+        "hp": 91,
+        "hit_dice": "14d8 + 28",
+        "ac": 20,
+        "speed": "walk 30 ft.",
+        "stats": [
+          16,
+          14,
+          14,
+          12,
+          11,
+          14
+        ],
+        "damage_immunities": "necrotic",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "charmed, exhaustion, frightened, petrified, poisoned",
+        "saves": [
+          {
+            "strength": 7
+          },
+          {
+            "charisma": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "Arcana": 5
+          },
+          {
+            "Investigation": 5
+          },
+          {
+            "Insight": 4
+          },
+          {
+            "Perception": 4
+          }
+        ],
+        "senses": "passive Perception 14",
+        "languages": "Common, Deep Speech",
+        "cr": "10",
+        "traits": [
+          {
+            "name": "Aura of Decay",
+            "desc": "Every time a creature starts its turn within 60 feet of the Knight of Ruin, it loses 1 AC from any worn armor and 1 damage from any physically based weapon for the rest of the encounter, to a maximum of 5 each."
+          },
+          {
+            "name": "All comes to Ruin eventually",
+            "desc": "Any creature that wishes to make a move away from the Knight of Ruin must first succeed on a DC 14 Charisma check. If this check is failed, the action is spent and the creature does not move."
+          },
+          {
+            "name": "The Speed of Dissolution",
+            "desc": "The Knight of Ruin has two Reactions per round."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "The Knight of Ruin can attack twice with _Gorespike_."
+          },
+          {
+            "name": "Gorespike",
+            "desc": "Melee Weapon Attack: +7 to hit, reach 10 ft, one target. Hit: 8 (1d10 + 3) slashing damage plus 11 (2d10) necrotic damage \n\nAny creature successfully hit by this attack must succeed on a DC 14 Charisma check or the Knight of Ruin gains a counter of _Ruinstorm_. The Knight of Ruin cannot gain more than one counter of _Ruinstorm_ this way per round."
+          },
+          {
+            "name": "Summon the Ruinstorm",
+            "desc": "Once per encounter, the Knight of Ruin summons the _Ruinstorm_. For the rest of the encounter, each enemy creature not under cover must succeed on a DC 14 Dexterity check or take 2d6 fire damage, or half damage on a success.\n\nEach counter of _Ruinstorm_ increases the damage by 1d6 fire damage, up to a maximum of 5d6 fire damage."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Unstoppable Force",
+            "desc": "The Knight of Ruin gains advantage on its next save against a spell."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Entropic Lance (Recharge 4-6)",
+            "desc": "Once per round, after a creature successfully hits the Knight of Ruin with a melee attack and that attack is resolved, an entropic spire (treated as solid 5 foot cube) appears in that creature's space for the rest of the encounter. The creature must succeed on a DC 14 Dexterity check and move 5 feet to an open space. A create that fails is moved 30 feet away from the Knight of Ruin and suffer 9 (2d8) necrotic damage and the Knight of Ruin gains a counter of _Ruinstorm_."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Avatar of Destruction",
+            "desc": "The Knight of Ruin gains _resistance_ to all damage types except radiant damage against the next attack."
+          },
+          {
+            "name": "Victory through Entropy",
+            "desc": "The Knight of Ruin can immediately teleport to a spot adjacent to the enemy that most recently missed an attack or failed a spell."
+          },
+          {
+            "name": "Channel Devastation (Recharge 4-6)",
+            "desc": "The Knight of Ruin gains a counter of _Ruinstorm_."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Father Donald Frank Callahan",
+      {
+        "name": "Father Donald Frank Callahan",
+        "source": "Unknown",
+        "type": "Medium humanoid (human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "Lawful Good",
+        "hp": 210,
+        "hit_dice": "17d12 + 100",
+        "ac": 20,
+        "speed": "30 ft.",
+        "stats": [
+          12,
+          14,
+          20,
+          13,
+          20,
+          16
+        ],
+        "damage_immunities": "poison, psychic",
+        "damage_resistances": "necrotic, radiant, psychic, force",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "charmed, frightened",
+        "saves": [
+          {
+            "constitution": 12
+          },
+          {
+            "wisdom": 10
+          },
+          {
+            "charisma": 10
+          },
+          {
+            "intelligence": 10
+          }
+        ],
+        "skillsaves": [
+          {
+            "Religion": 11
+          },
+          {
+            "Persuasion": 8
+          },
+          {
+            "Insight": 10
+          }
+        ],
+        "senses": "Darkvision 60 ft.",
+        "languages": "Common, Celestial",
+        "cr": "14",
+        "traits": [
+          {
+            "name": "Divine Aura",
+            "desc": "Allies within 30 feet of Father Callahan gain a +2 bonus to saving throws against spells and effects."
+          },
+          {
+            "name": "Healing Touch",
+            "desc": "Father Callahan can cast Cure Wounds as a bonus action, targeting himself or an ally within 30 feet."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Father Callahan's spellcasting ability is Wisdom (spell save DC 18, +10 to hit with spell attacks). He can innately cast the following spells: At will: sacred flame, guidance. 3/day each: cure wounds, spiritual weapon, dispel magic, blight."
+          },
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If Father Callahan fails a saving throw, he can choose to succeed instead."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Father Callahan makes two attacks with Radiant Strike and one attack with Divine Smite."
+          },
+          {
+            "name": "Radiant Strike",
+            "desc": "Melee Attack: +8 to hit, dealing 8 (1d10 + 2) radiant damage. On a hit, the target must make a DC 18 Constitution saving throw or be blinded until the end of their next turn."
+          },
+          {
+            "name": "Divine Smite",
+            "desc": "Melee Attack: +8 to hit, dealing 8 (1d10 + 2) radiant damage. On a hit, the target must make a DC 18 Wisdom saving throw or be frightened until the end of their next turn."
+          },
+          {
+            "name": "Holy Burst",
+            "desc": "Area of effect action: A 30-foot radius centered on Father Callahan. Each creature within range must make a DC 16 saving throw or take 33 (7d10) radiant damage, or half as much on a successful save. Creatures who fail the save will also suffer disadvantage on the next attack."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [
+          {
+            "name": "Protective Shield Legendary Action 1 (Costs 1 Action)",
+            "desc": "Father Callahan raises his shield, granting himself a +2 bonus to AC until the start of his next turn. This shield blocks one incoming damage instance."
+          },
+          {
+            "name": "Holy Burst Legendary Action 2 (Costs 2 Actions)",
+            "desc": "Father Callahan can choose to use Holy Burst."
+          },
+          {
+            "name": "Faith's Reckoning Legendary Action 3 (Costs 3 Actions)",
+            "desc": "Father Callahan channels divine energy into a melee attack that deals 27 (5d10) radiant damage. The target must make a DC 18 Constitution saving throw or become cursed, taking an additional 10 (3d6) radiant damage at the start of each of its turns until it succeeds on the saving throw."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Jonathan Harker",
+      {
+        "name": "Jonathan Harker",
+        "source": "Monstershuffler.com",
+        "type": "Medium Humanoid (male Human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "Lawful Good",
+        "hp": 289,
+        "hit_dice": "34d8 + 136",
+        "ac": 16,
+        "speed": "walk 30 ft.",
+        "stats": [
+          10,
+          20,
+          18,
+          13,
+          10,
+          20
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "",
+        "saves": [
+          {
+            "dexterity": 11
+          },
+          {
+            "wisdom": 6
+          },
+          {
+            "charisma": 11
+          }
+        ],
+        "skillsaves": [
+          {
+            "Acrobatics": 11
+          },
+          {
+            "Stealth": 17
+          },
+          {
+            "Investigation": 7
+          },
+          {
+            "Deception": 17
+          },
+          {
+            "Performance": 11
+          }
+        ],
+        "senses": "blindsight 10 ft., passive Perception 10",
+        "languages": "Aquan, Common, Thieves' Cant",
+        "cr": "20",
+        "traits": [
+          {
+            "name": "Legendary Resistance (3/Day)",
+            "desc": "If Jonathan fails a saving throw, he can choose to succeed instead."
+          },
+          {
+            "name": "Evasion",
+            "desc": "When Jonathan is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on a saving throw, and only half damage if he fails."
+          },
+          {
+            "name": "Elusive",
+            "desc": "No attack roll has advantage against Jonathan unless he is incapacitated."
+          },
+          {
+            "name": "Dirty Tricks",
+            "desc": "Jonathan has mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:\n- When Jonathan hits a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.\n- Creatures provoke opportunity attacks from Jonathan even if they take the Disengage action before leaving his reach."
+          },
+          {
+            "name": "Impostor",
+            "desc": "Jonathan spends at least three hours studying these three components of a person's behaviour: listening to speech, examining handwriting, and observing mannerisms. After these three hours, he gains the ability to unerringly mimic that person's speech, writing, and behaviour. His ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, Jonathan has advantage on any Charisma (Deception) check he makes to avoid detection."
+          },
+          {
+            "name": "Assassinate",
+            "desc": "Jonathan has advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. In addition, any hit Jonathan scores against a creature that is surprised is a critical hit, and the total damage of the attack is doubled if the creature fails a DC 19 Constitution saving throw."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Dagger",
+            "desc": "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft or range 20/60 ft, one target. Hit: 7 (1d4 + 5) piercing damage plus 33 (6d10) poison damage. Once on his turn, when Jonathan has advantage on the attack roll, or if another enemy of the target is within 5 feet of it, he can deal an additional 59 (17d6) damage to the target."
+          }
+        ],
+        "bonus_actions": [
+          {
+            "name": "Cunning Action",
+            "desc": "Jonathan can take a bonus action to Dash, Disengage or Hide on each of his turns in Combat."
+          }
+        ],
+        "reactions": [
+          {
+            "name": "Uncanny Dodge",
+            "desc": "When an attacker that Jonathan can see hits him with an attack, he can use his reaction to halve the attack's damage against him."
+          },
+          {
+            "name": "Sentinel",
+            "desc": "When a creature within Jonathan's reach makes an attack against a target other than him, he can use his reaction to make a melee weapon attack against the attacking creature."
+          }
+        ],
+        "legendary_actions": [
+          {
+            "name": "Paralyzing Dagger (Costs 3 Actions)",
+            "desc": "Melee or Ranged Weapon Attack: +11 to hit, reach 5 ft or range 20/60 ft, one target. Hit: 7 (1d4 + 5) piercing damage This dagger is coated with a potent paralyzing poison. Creatures hit with it must make a DC 19 Constitution saving throw or be paralyzed for 1d4 rounds. While a creature is paralyzed, Jonathan can treat it as surprised for the purpose of using their abilities, such as the Assassinate trait."
+          },
+          {
+            "name": "Reposition",
+            "desc": "Jonathan moves 10 feet without provoking Opportunity Attacks."
+          },
+          {
+            "name": "Vanish",
+            "desc": "Jonathan uses the Hide action."
+          }
+        ],
+        "image": null
+      }
+    ],
+    [
+      "Aetheryn's Paladin",
+      {
+        "image": null,
+        "name": "Aetheryn's Paladin",
+        "source": "TetraCube",
+        "type": "humanoid",
+        "subtype": "",
+        "size": "medium",
+        "alignment": "Lawful good",
+        "ac": "",
+        "speed": "40 ft.",
+        "stats": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ],
+        "damage_immunities": "",
+        "damage_resistances": "",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "frightened",
+        "saves": [
+          {
+            "strength": 11
+          },
+          {
+            "dexterity": 11
+          },
+          {
+            "wisdom": 11
+          }
+        ],
+        "skillsaves": [
+          {
+            "acrobatics": 11
+          },
+          {
+            "arcana": 11
+          },
+          {
+            "intimidation": 16
+          },
+          {
+            "perception": 11
+          },
+          {
+            "religion": 16
+          },
+          {
+            "survival": 16
+          }
+        ],
+        "senses": "darkvision 10 ft., passive Perception 21",
+        "languages": "Common; Dwarvish and Orc",
+        "cr": "20",
+        "actions": [
+          {
+            "name": "Attack",
+            "desc": "Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 15 (3d6 + 5) +10 damage."
+          },
+          {
+            "name": "Multiattack",
+            "desc": "The Aetheryn's Paladin makes two attacks."
+          },
+          {
+            "name": "Legendary Resistance (3/day)",
+            "desc": "If the Aetheryn's Paladin fails a saving throw, it can choose to succeed instead."
+          },
+          {
+            "name": "Leadership (Recharges after a Short or Long Rest)",
+            "desc": "For 1 minute, the Aetheryn's Paladin can utter a special command or warning whenever a nonhostile creature that it can see within 30 ft. of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the Aetheryn's Paladin. A creature can benefit from only one Leadership die at a time. This effect ends if the Aetheryn's Paladin is incapacitated."
+          },
+          {
+            "name": "Regeneration",
+            "desc": "The Aetheryn's Paladin regains 100 hit points at the start of its turn if it has at least 1 hit point."
+          },
+          {
+            "name": "Parry",
+            "desc": "The Aetheryn's Paladin adds 10 to its AC against one melee attack that would hit it. To do so, the Aetheryn's Paladin must see the attacker and be wielding a melee weapon."
+          },
+          {
+            "name": "Undead Fortitude",
+            "desc": "If damage reduces the Aetheryn's Paladin to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the Aetheryn's Paladin drops to 1 hit point instead."
+          }
+        ],
+        "legendary_description": null,
+        "legendary_actions": null,
+        "mythic_description": null,
+        "mythic_actions": null,
+        "lair_description": null,
+        "lair_actions": null,
+        "lair_description_end": null,
+        "regional_description": null,
+        "regional_actions": null,
+        "regional_description_end": null
+      }
+    ],
+    [
+      "Barnaby \"Barna\" Cienmanos",
+      {
+        "name": "Barnaby \"Barna\" Cienmanos",
+        "source": "Unknown",
+        "type": "Medium humanoid (human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "neutral good",
+        "hp": 27,
+        "hit_dice": "6d8",
+        "ac": 14,
+        "speed": "30 ft.",
+        "stats": [
+          10,
+          16,
+          12,
+          14,
+          15,
+          18
+        ],
+        "damage_immunities": "none",
+        "damage_resistances": "psychic",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "none",
+        "saves": [
+          {
+            "dexterity": 5
+          },
+          {
+            "charisma": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "Medicine": 6
+          },
+          {
+            "Persuasion": 6
+          }
+        ],
+        "senses": "Darkvision 60 ft.",
+        "languages": "Common, Elvish",
+        "cr": "2",
+        "traits": [
+          {
+            "name": "Healer's Touch",
+            "desc": "Whenever Barna uses a healing spell, he adds his proficiency bonus to the amount healed."
+          },
+          {
+            "name": "Inspiring Presence",
+            "desc": "Barna can choose one ally within 30 feet. That ally gains advantage on their next saving throw against being frightened or charmed."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Barnaby makes one attack with his Healing Touch. If that attack hits, he can make one Inspiring Strikes attack against the same target."
+          },
+          {
+            "name": "Healing Touch",
+            "desc": "Melee Attack: +4 to hit, dealing 9 (2d6 + 2) psychic damage. On a hit, the target must succeed on a DC 14 Wisdom saving throw or become dazed until the end of their next turn."
+          },
+          {
+            "name": "Inspiring Strikes",
+            "desc": "Melee Attack: +4 to hit, dealing 5 (1d6 + 2) damage. If this attack hits, Barnaby can choose one ally within range to gain temporary hit points equal to the damage dealt."
+          },
+          {
+            "name": "Somatic Surge",
+            "desc": "As a bonus action, Barna can channel healing energy into a target within 30 feet, causing them to heal for 30 (4d12 + 4) hit points. This ability can be used once per long rest."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "image": null
+      }
+    ],
+    [
+      "Kaelen Piedrahonda",
+      {
+        "name": "Kaelen Piedrahonda",
+        "source": "Unknown",
+        "type": "Medium humanoid (human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "neutral good",
+        "hp": 33,
+        "hit_dice": "6d10",
+        "ac": 12,
+        "speed": "30 ft.",
+        "stats": [
+          12,
+          16,
+          12,
+          14,
+          10,
+          15
+        ],
+        "damage_immunities": "none",
+        "damage_resistances": "none",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "none",
+        "saves": [
+          {
+            "dexterity": 5
+          },
+          {
+            "intelligence": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "Acrobatics": 5
+          },
+          {
+            "Persuasion": 4
+          }
+        ],
+        "senses": "Darkvision 60 ft.",
+        "languages": "Common, Elvish",
+        "cr": "2",
+        "traits": [
+          {
+            "name": "Skilled Navigator",
+            "desc": "Kaelen has advantage on checks made to navigate or track in wilderness environments."
+          },
+          {
+            "name": "Charmed Presence",
+            "desc": "Creatures of Kaelen's choice within 30 feet that can see him must succeed on a Wisdom saving throw (DC 12) or be charmed by him until the end of their next turn."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Swift Cut",
+            "desc": "Melee Attack: +5 to hit, dealing 10 (2d6 + 3) slashing damage. On a hit, Kaelen can choose to disarm the target, forcing them to make a DC 13 Strength saving throw. On a failed save, the target drops one object of Kaelen's choice that they are holding."
+          },
+          {
+            "name": "Inspiring Word",
+            "desc": "Kaelen can use his action to bolster allies within 30 feet. Each ally of Kaelen’s choice regains 15 (3d6 + 4) hit points and gains temporary hit points equal to Kaelen's Wisdom modifier (0) until the start of his next turn. This ability can be used once per short or long rest."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "image": null
+      }
+    ],
+    [
+      "Seraphina \"Sera\" Vancroft",
+      {
+        "name": "Seraphina \"Sera\" Vancroft",
+        "source": "Unknown",
+        "type": "Medium humanoid (human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "lawful good",
+        "hp": 27,
+        "hit_dice": "6d8",
+        "ac": 14,
+        "speed": "30 ft.",
+        "stats": [
+          12,
+          16,
+          14,
+          10,
+          13,
+          18
+        ],
+        "damage_immunities": "none",
+        "damage_resistances": "radiant",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "none",
+        "saves": [
+          {
+            "dexterity": 5
+          },
+          {
+            "charisma": 6
+          }
+        ],
+        "skillsaves": [
+          {
+            "Persuasion": 8
+          },
+          {
+            "Insight": 3
+          }
+        ],
+        "senses": "Darkvision 60 ft.",
+        "languages": "Common, Celestial",
+        "cr": "2",
+        "traits": [
+          {
+            "name": "Aura of Protection",
+            "desc": "Allies within 10 feet of Sera gain a +2 bonus to saving throws."
+          },
+          {
+            "name": "Inspiring Presence",
+            "desc": "Sera can inspire allies, granting them advantage on their next attack roll or saving throw when they are within 30 feet of her."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Sera makes one attack with her Holy Smite. If that attack hits, she can make one Divine Strike attack against the same target."
+          },
+          {
+            "name": "Holy Smite",
+            "desc": "Melee Attack: +4 to hit, dealing 9 (2d6 + 2) radiant damage. On a hit, the target must succeed on a DC 13 Constitution saving throw or be blinded until the end of its next turn."
+          },
+          {
+            "name": "Divine Strike",
+            "desc": "Melee Attack: +4 to hit, dealing 5 (1d6 + 2) radiant damage. On a hit, Sera can choose to grant disadvantage on the target's next attack roll."
+          },
+          {
+            "name": "Shield of Faith",
+            "desc": "Sera can channel divine energy to create a shimmering shield around herself or an ally within 30 feet. For the next minute, the target gains a +2 bonus to AC, and they can make a single melee attack as a reaction, dealing 11 (2d10) radiant damage. This ability recharges on a 5 or 6 after being used."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "image": null
+      }
+    ],
+    [
+      "Cleric Aric",
+      {
+        "name": "Cleric Aric",
+        "source": "Unknown",
+        "type": "Medium humanoid (human)",
+        "subtype": "",
+        "size": "",
+        "alignment": "neutral good",
+        "hp": 110,
+        "hit_dice": "13d10 + 39",
+        "ac": 15,
+        "speed": "30 ft.",
+        "stats": [
+          12,
+          10,
+          16,
+          10,
+          18,
+          14
+        ],
+        "damage_immunities": "poison",
+        "damage_resistances": "necrotic, radiant",
+        "damage_vulnerabilities": "",
+        "condition_immunities": "poisoned",
+        "saves": [
+          {
+            "wisdom": 7
+          },
+          {
+            "charisma": 5
+          }
+        ],
+        "skillsaves": [
+          {
+            "Religion": 6
+          },
+          {
+            "Medicine": 7
+          },
+          {
+            "Insight": 7
+          }
+        ],
+        "senses": "Darkvision 60 ft.",
+        "languages": "Common, Celestial",
+        "cr": "6",
+        "traits": [
+          {
+            "name": "Channel Divinity",
+            "desc": "Cleric Aric can use his Channel Divinity feature to turn undead or harness divine energy for a powerful effect. This ability recharges after a short or long rest."
+          },
+          {
+            "name": "Divine Domain",
+            "desc": "Aric has selected the Life Domain, gaining abilities that enhance his healing spells and allowing him to empower his healing magic."
+          },
+          {
+            "name": "Spellcasting",
+            "desc": "Cleric Aric's spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). He can prepare and cast the following spells: At will: guidance, sacred flame, thaumaturgy. 3/day each: cure wounds, bless, shield of faith. 1/day each: revivify, spirit guardians."
+          }
+        ],
+        "actions": [
+          {
+            "name": "Multiattack",
+            "desc": "Cleric Aric makes two attacks: one with Sacred Strike and one with Shielding Smite."
+          },
+          {
+            "name": "Sacred Strike",
+            "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) radiant damage. The target must succeed on a DC 15 Wisdom saving throw or become blinded until the end of its next turn."
+          },
+          {
+            "name": "Shielding Smite",
+            "desc": "Melee Spell Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) radiant damage. If the attack hits, the target also has disadvantage on the next attack roll it makes before the end of its next turn."
+          },
+          {
+            "name": "Divine Wave",
+            "desc": "Cleric Aric channels divine energy in a wave around him. Each creature within 10 feet must make a DC 15 Constitution saving throw, taking 24 (7d6) radiant damage on a failed save, or half as much damage on a successful one. Cleric Aric regains hit points equal to the total radiant damage dealt."
+          }
+        ],
+        "bonus_actions": [],
+        "reactions": [],
+        "legendary_actions": [],
+        "image": null
+      }
+    ]
+  ],
+  "defaultLayouts": {},
+  "layouts": [],
+  "default": "basic-5e-layout",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": false,
+  "version": {
+    "major": 4,
+    "minor": 7,
+    "patch": 2
+  },
+  "paths": [
+    "/"
+  ],
+  "autoParse": false,
+  "disableSRD": false,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": true
+}
