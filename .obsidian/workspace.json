@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-Session Journals/0. Llegada a Thalmyr.md",
+                "file": "5-Session Journals/2. Misterio en Saszeki resuelto.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0. Llegada a Thalmyr"
+              "title": "Outline of 2. Misterio en Saszeki resuelto"
             }
           },
           {
@@ -252,17 +252,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "29f94cc4fa0d42b4",
+  "active": "168b436c790a616c",
   "lastOpenFiles": [
-    "2-Campaign/Quests/Quests.md",
+    "5-Session Journals/1. El Secreto de Sazseki.md",
+    "z_Templates/TemplateJournal.md",
+    "5-Session Journals/2. Misterio en Saszeki resuelto.md",
     "5-Session Journals/0. Llegada a Thalmyr.md",
+    "2-Campaign/Quests/Quests.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah_Te.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
     "2-Campaign/Teasers.md",
     "1-DM Toolkit/DM Screen.md",
     "1-DM Toolkit/Home.md",
-    "5-Session Journals/2. Misterio en Saszeki resuelto.md",
-    "5-Session Journals/1. El Secreto de Sazseki.md",
     "1-Party/Other players/Other players.md",
     "1-Party/Main Party/Main Party.md",
     "conflict-files-obsidian-git.md",
@@ -281,7 +282,6 @@
     "4-Codex Entry/NOTE - Entrada de diario de Aric 02.md",
     "4-Codex Entry/NOTE - Entrada de diario de Aric 01.md",
     "z_Assets/Pasted image 20250605104306.png",
-    "3-Mechanics/NPCs/Ithira Vonn.md",
     "z_Assets/Pasted image 20250604201216.png",
     "4-Codex Entry/Obtenidos",
     "z_Assets/Pasted image 20250606150616.png",

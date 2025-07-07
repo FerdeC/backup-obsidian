@@ -31,18 +31,18 @@ if (!hasTitle) {
 }
 _%>
 
-# Roster 
+# Info 
+## Players
+- [[Kaia]]
+- [[Kirue]]
+- [[Roglic]]
+- [[Thrash]]
 
-%% Keep track of who turned up. %%
+## Quest
+```dataview
+TABLE WITHOUT ID link(file.name) AS "Quest Name", questStatus AS "Status", questGiver AS "Quest Giver", questLocationObtained AS "Location", questSessionObtained AS "Session", questLootAvail AS "Available Rewards", questLookEarned AS "Acquired Rewards" FROM "2-Campaign" AND #quest WHERE questStatus = "Not Started" SORT link(file.name) ASC
 
-- [[Alyriara]]
-
-
-## Absent
-
-%% Keep track of who didn't turn up. %%
-
-- [[Balbuino]]
+```
 
 # Session Overview
 
