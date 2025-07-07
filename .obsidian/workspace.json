@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-World/Eliaran.md",
+                "file": "5-Session Journals/2. La Ilusión Rota de Sazseki.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Eliaran"
+              "title": "2. La Ilusión Rota de Sazseki"
             }
           },
           {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_Assets/Pasted image 20250604201216.png",
+                "file": "5-Session Journals/2. La Ilusión Rota de Sazseki.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250604201216"
+              "title": "Outline of 2. La Ilusión Rota de Sazseki"
             }
           },
           {
@@ -252,51 +252,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "floating": {
-    "id": "bcbe44875e97f87a",
-    "type": "floating",
-    "children": [
-      {
-        "id": "0f36eda725771195",
-        "type": "window",
-        "children": [
-          {
-            "id": "ce8f7df885cfd4c3",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "deb75405e3bd96c7",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "z_Assets/Pasted image 20250604201216.png"
-                  },
-                  "icon": "lucide-image",
-                  "title": "Pasted image 20250604201216"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 448,
-        "y": 116,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "deb75405e3bd96c7",
+  "active": "168b436c790a616c",
   "lastOpenFiles": [
+    "5-Session Journals/1. La Plaga de la Mente.md",
+    "5-Session Journals/0. Llegada a Thalmyr.md",
+    "5-Session Journals/2. La Ilusión Rota de Sazseki.md",
     "2-World/Eliaran.md",
     "z_Assets/Pasted image 20250604201216.png",
-    "5-Session Journals/2. Misterio en Saszeki resuelto.md",
-    "5-Session Journals/1. El Secreto de Sazseki.md",
     "z_Templates/TemplateJournal.md",
-    "5-Session Journals/0. Llegada a Thalmyr.md",
     "2-Campaign/Quests/Quests.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah_Te.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
