@@ -32,7 +32,7 @@
               "type": "markdown",
               "state": {
                 "file": "1-DM Toolkit/DM Screen.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,13 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-Session Journals/2. La Ilusión Rota de Sazseki.md",
+                "file": "1-DM Toolkit/DM Screen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. La Ilusión Rota de Sazseki"
+              "title": "Outline of DM Screen"
             }
           },
           {
@@ -237,10 +237,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "168b436c790a616c",
+  "active": "3acf779fc9980c28",
   "lastOpenFiles": [
-    "5-Session Journals/1. La Plaga de la Mente.md",
     "5-Session Journals/2. La Ilusión Rota de Sazseki.md",
+    "5-Session Journals/1. La Plaga de la Mente.md",
     "5-Session Journals/0. Llegada a Thalmyr.md",
     "2-World/Eliaran.md",
     "z_Assets/Pasted image 20250604201216.png",
