@@ -135,12 +135,6 @@ Tira un d100 cada vez que se lance un hechizo en este reino inestable.
 |96-99|**Potencia Inesperada**|No|Hechizo potenciado al máximo; daño total x 2.|
 |**100**|**Milagro Arcano**|No|Hechizo potenciado al máximo; **daño total x 3 a TODOS los enemigos** en alcance/área.|
 
----
-
-¿Hay algún otro ajuste que te gustaría hacer a la tabla o necesitas algo más para tu campaña?
-
-
-
 # TEST 
 ## botones old 
 
