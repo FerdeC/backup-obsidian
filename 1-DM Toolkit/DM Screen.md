@@ -94,10 +94,11 @@ favorMyrianor: "0"
 > </div>
 
 
+
 ## Afinidades
 | Religión | Favor | | Estado | Favor | | Jugador | Arcana | Dado |
 | -------- | ----- |-| -------- | ----- |-| ------- | ------ | ------ |
-| Ilyareth | `=this.favorIlyareth` || Varkass | `=this.favorVarkass` || [[Kaia]] | `$=dv.page("1-Party/Main Party/Kaia.md").pasperc` | `dice: 1d100 ` |
+| Ilyareth | `=this.favorIlyareth` || Varkass | `=this.favorVarkass` || [[Kaia]] | `$=dv.page("1-Party/Main Party/Kaia.md").pasperc` | `dice: 1d100 - arcana ` |
 | Nyssara | `=this.favorNyssara` || Elkar | `=this.favorElkar` || [[Roglic]] | `$=dv.page("1-Party/Main Party/Roglic.md").pasperc` |
 | Vharun | `=this.favorVharun` || Vael Torith | `=this.favorVaelTorith` || [[Kirue]] | `$=dv.page("1-Party/Main Party/Kirue.md").pasperc` |
 | Zareth'Kal | `=this.favorZarethKal` || Darran-Kar | `=this.favorDarran-Kar` || [[Thrash]] | `$=dv.page("1-Party/Main Party/Thrash.md").pasperc` |
@@ -145,6 +146,8 @@ Tira un d100 cada vez que se lance un hechizo en este reino inestable.
 |**100**|**Milagro Arcano**|No|Hechizo potenciado al máximo; **daño total x 3 a TODOS los enemigos** en alcance/área.|
 
 # TEST 
+arcana::`$=dv.page("1-Party/Main Party/Roglic.md").pasperc`
+
 ## botones old 
 
 ```dataview
