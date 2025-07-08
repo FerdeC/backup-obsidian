@@ -95,18 +95,16 @@ favorMyrianor: "0"
 
 
 ## Afinidades
-
-
-| Religión   | Favor                   | Estado      | Favor | Jugador | Arcana |
-| ---------- | ----------------------- | ----------- | ----- | ----- | ----- |
-| Ilyareth   | `=this.favorIlyareth`   | Varkass     | `=this.favorVarkass`     | [[Kaia]]     | `$=dv.page("1-Party/Main Party/Kaia".pasperc`     |
-| Nyssara    | `=this.favorNyssara`    | Elkar       | `=this.favorElkar`     | [[Roglic]]     | `=this.favorVarkass`     |
-| Vharun     | `=this.favorVharun`     | Vael Torith | `=this.favorVaelTorith`     | [[Kirue]]     | `=this.favorVarkass`     |
-| Zareth'Kal | `=this.favorZarethKal` | Darran-Kar  | `=this.favorDarran-Kar`     | [[Thrash]]     | `=this.favorVarkass`     |
-|            |                         | Aetheryn    | `=this.favorAetheryn`     |
-|            |                         | Seliar      | `=this.favorSeliar`     |
-|            |                         | Velkaris    | `=this.favorVelkaris`     |
-|            |                         | Myrianor    | `=this.favorMyrianor`     |
+| Religión | Favor | | Estado | Favor | | Jugador | Arcana |
+| -------- | ----- |-| -------- | ----- |-| ------- | ------ |
+| Ilyareth | `=this.favorIlyareth` || Varkass | `=this.favorVarkass` || [[Kaia]] | `$=dv.page("1-Party/Main Party/Kaia.md").pasperc` |
+| Nyssara | `=this.favorNyssara` || Elkar | `=this.favorElkar` || [[Roglic]] | `$=dv.page("1-Party/Main Party/Roglic.md").pasperc` |
+| Vharun | `=this.favorVharun` || Vael Torith | `=this.favorVaelTorith` || [[Kirue]] | `$=dv.page("1-Party/Main Party/Kirue.md").pasperc` |
+| Zareth'Kal | `=this.favorZarethKal` || Darran-Kar | `=this.favorDarran-Kar` || [[Thrash]] | `$=dv.page("1-Party/Main Party/Thrash.md").pasperc` |
+| | | | Aetheryn | `=this.favorAetheryn` || | |
+| | | | Seliar | `=this.favorSeliar` || | |
+| | | | Velkaris | `=this.favorVelkaris` || | |
+| | | | Myrianor | `=this.favorMyrianor` || | |
 
 ## Quests
 
