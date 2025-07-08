@@ -97,12 +97,12 @@ favorMyrianor: "0"
 ## Afinidades
 
 
-| Religión   | Favor                   | Estado      | Favor |
-| ---------- | ----------------------- | ----------- | ----- |
-| Ilyareth   | `=this.favorIlyareth`   | Varkass     | `=this.favorVarkass`     |
-| Nyssara    | `=this.favorNyssara`    | Elkar       | `=this.favorElkar`     |
-| Vharun     | `=this.favorVharun`     | Vael Torith | `=this.favorVaelTorith`     |
-| Zareth'Kal | `=this.favorZarethKal` | Darran-Kar  | `=this.favorDarran-Kar`     |
+| Religión   | Favor                   | Estado      | Favor | Jugador | Arcana |
+| ---------- | ----------------------- | ----------- | ----- | ----- | ----- |
+| Ilyareth   | `=this.favorIlyareth`   | Varkass     | `=this.favorVarkass`     | [[Kaia]]     | `=Kaia.pasperc`     |
+| Nyssara    | `=this.favorNyssara`    | Elkar       | `=this.favorElkar`     | [[Roglic]]     | `=this.favorVarkass`     |
+| Vharun     | `=this.favorVharun`     | Vael Torith | `=this.favorVaelTorith`     | [[Kirue]]     | `=this.favorVarkass`     |
+| Zareth'Kal | `=this.favorZarethKal` | Darran-Kar  | `=this.favorDarran-Kar`     | [[Thrash]]     | `=this.favorVarkass`     |
 |            |                         | Aetheryn    | `=this.favorAetheryn`     |
 |            |                         | Seliar      | `=this.favorSeliar`     |
 |            |                         | Velkaris    | `=this.favorVelkaris`     |
