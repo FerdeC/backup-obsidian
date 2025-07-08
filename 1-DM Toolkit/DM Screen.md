@@ -98,10 +98,10 @@ favorMyrianor: "0"
 ## Afinidades
 | Religión | Favor | | Estado | Favor | | Jugador | Arcana | Dado |
 | -------- | ----- |-| -------- | ----- |-| ------- | ------ | ------ |
-| Ilyareth | `=this.favorIlyareth` || Varkass | `=this.favorVarkass` || [[Kaia]] | `$=dv.page("1-Party/Main Party/Kaia.md").pasperc` | `dice: 1d100 - arcana ` |
-| Nyssara | `=this.favorNyssara` || Elkar | `=this.favorElkar` || [[Roglic]] | `$=dv.page("1-Party/Main Party/Roglic.md").pasperc` |
-| Vharun | `=this.favorVharun` || Vael Torith | `=this.favorVaelTorith` || [[Kirue]] | `$=dv.page("1-Party/Main Party/Kirue.md").pasperc` |
-| Zareth'Kal | `=this.favorZarethKal` || Darran-Kar | `=this.favorDarran-Kar` || [[Thrash]] | `$=dv.page("1-Party/Main Party/Thrash.md").pasperc` |
+| Ilyareth | `=this.favorIlyareth` || Varkass | `=this.favorVarkass` || [[Kaia]] | `$=dv.page("1-Party/Main Party/Kaia.md").pasperc` | `dice: 1d100 - arcana1 ` |
+| Nyssara | `=this.favorNyssara` || Elkar | `=this.favorElkar` || [[Roglic]] | `$=dv.page("1-Party/Main Party/Roglic.md").pasperc` | `dice: 1d100 - arcana2 ` |
+| Vharun | `=this.favorVharun` || Vael Torith | `=this.favorVaelTorith` || [[Kirue]] | `$=dv.page("1-Party/Main Party/Kirue.md").pasperc` | `dice: 1d100 - arcana3 ` |
+| Zareth'Kal | `=this.favorZarethKal` || Darran-Kar | `=this.favorDarran-Kar` || [[Thrash]] | `$=dv.page("1-Party/Main Party/Thrash.md").pasperc` | `dice: 1d100 - arcana4 ` |
 | | | | Aetheryn | `=this.favorAetheryn` || | |
 | | | | Seliar | `=this.favorSeliar` || | |
 | | | | Velkaris | `=this.favorVelkaris` || | |
@@ -146,7 +146,10 @@ Tira un d100 cada vez que se lance un hechizo en este reino inestable.
 |**100**|**Milagro Arcano**|No|Hechizo potenciado al máximo; **daño total x 3 a TODOS los enemigos** en alcance/área.|
 
 # TEST 
-arcana::`$=dv.page("1-Party/Main Party/Roglic.md").pasperc`
+arcana1::`$=dv.page("1-Party/Main Party/Kaia.md").pasperc`
+arcana2::`$=dv.page("1-Party/Main Party/Roglic.md").pasperc`
+arcana3::`$=dv.page("1-Party/Main Party/Kirue.md").pasperc`
+arcana4::`$=dv.page("1-Party/Main Party/Thrash.md").pasperc`
 
 ## botones old 
 
