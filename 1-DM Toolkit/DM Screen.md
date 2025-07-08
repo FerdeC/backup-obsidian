@@ -1,6 +1,7 @@
 ---
 obsidianUIMode: preview
-assa:
+assa: 
+favor1:: "1"
 ---
 > [!tip]+ Crear nuevo contenido
 > 
