@@ -97,7 +97,7 @@ favorMyrianor: "0"
 ## Afinidades
 | Religión | Favor | | Estado | Favor | | Jugador | Arcana | Dado |
 | -------- | ----- |-| -------- | ----- |-| ------- | ------ | ------ |
-| Ilyareth | `=this.favorIlyareth` || Varkass | `=this.favorVarkass` || [[Kaia]] | `$=dv.page("1-Party/Main Party/Kaia.md").pasperc` | `dice: 1d100 + ($=dv.page("1-Party/Main Party/Kaia.md").pasperc)` |
+| Ilyareth | `=this.favorIlyareth` || Varkass | `=this.favorVarkass` || [[Kaia]] | `$=dv.page("1-Party/Main Party/Kaia.md").pasperc` | `dice: 1d100 ` |
 | Nyssara | `=this.favorNyssara` || Elkar | `=this.favorElkar` || [[Roglic]] | `$=dv.page("1-Party/Main Party/Roglic.md").pasperc` |
 | Vharun | `=this.favorVharun` || Vael Torith | `=this.favorVaelTorith` || [[Kirue]] | `$=dv.page("1-Party/Main Party/Kirue.md").pasperc` |
 | Zareth'Kal | `=this.favorZarethKal` || Darran-Kar | `=this.favorDarran-Kar` || [[Thrash]] | `$=dv.page("1-Party/Main Party/Thrash.md").pasperc` |
