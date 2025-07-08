@@ -47,17 +47,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_Templates/TemplateEncounter.md",
+                "file": "1-Party/Main Party/Main Party.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TemplateEncounter"
+              "title": "Main Party"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,12 +197,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_Templates/TemplateEncounter.md",
+                "file": "1-DM Toolkit/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TemplateEncounter"
+              "title": "Outgoing links from Home"
             }
           },
           {
@@ -282,36 +281,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "cd3761d38367a5ad",
+  "active": "e09646f8c059b2a9",
   "lastOpenFiles": [
-    "z_Templates/TemplateQuest.md",
+    "1-DM Toolkit/DM Screen.md",
+    "1-DM Toolkit/Home.md",
+    "1-Party/Main Party/Main Party.md",
     "z_Templates/TemplateEncounter.md",
+    "z_Templates/TemplatePlayer.md",
+    "z_Templates/TemplateNPC.md",
+    "z_Templates/TemplateJournal.md",
+    "z_Templates/TemplateMagicItem.md",
+    "z_Templates/TemplateGroup.md",
+    "z_Templates/TemplateQuest.md",
     "2-Campaign/Encounters/Tabla de encuentros.md",
     "2-Campaign/Encounters/NewEncounter.md",
-    "1-DM Toolkit/DM Screen.md",
     "2-World/Eliaran.md",
-    "1-DM Toolkit/Home.md",
     "2-World/deiades.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
     "2-Campaign/Quests/Tablón de anuncios.md",
     "5-Session Journals/00. Llegada a Thalmyr.md",
-    "z_Templates/TemplateMagicItem.md",
     "2-Campaign/Quests/Quests.md",
     "2-Campaign/Encounters",
     "5-Session Journals/03. El camino a Vael Torith.md",
     "5-Session Journals/01. La Plaga de la Mente.md",
     "5-Session Journals/02. La Ilusión Rota de Sazseki.md",
     "z_Assets/Pasted image 20250604201216.png",
-    "z_Templates/TemplateJournal.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah_Te.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
     "2-Campaign/Teasers.md",
     "1-Party/Other players/Other players.md",
-    "1-Party/Main Party/Main Party.md",
     "conflict-files-obsidian-git.md",
-    "z_Templates/test.md",
-    "0-Obsidian TTRPG Tutorial/0-Obsidian TTRPG Tutorial.md",
-    "0-Obsidian TTRPG Tutorial/Untitled.md",
     "sync",
     "z_Assets/Pasted image 20250605104306.png",
     "4-Codex Entry/Obtenidos",

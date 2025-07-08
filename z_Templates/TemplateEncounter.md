@@ -1,5 +1,11 @@
 ---
-tags: "encounter"
+tags:
+  - encounter
+tipo:
+  - camino
+enemigos:
+  - goblins
+  - hobgoblin
 ---
 
 
