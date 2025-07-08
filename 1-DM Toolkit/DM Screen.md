@@ -1,18 +1,18 @@
 ---
 obsidianUIMode: preview
 assa: 
-favorIlyareth: "1"
-favorNyssara: "0"
-favorVharun: "0"
-favorZarethKal: "0"
+favorIlyareth: "4"
+favorNyssara: "2"
+favorVharun: "1"
+favorZarethKal: "1"
 favorVarkass: "1"
-favorElkar: "0"
-favorVaelTorith: "0"
-favorDarran-Kar: "0"
+favorElkar: "1"
+favorVaelTorith: "1"
+favorDarran-Kar: "1"
 favorAetheryn: "1"
-favorSeliar: "0"
-favorVelkaris: "0"
-favorMyrianor: "0"
+favorSeliar: "1"
+favorVelkaris: "1"
+favorMyrianor: "1"
 ---
 > 
 > <div style="display: flex; gap: 1em; flex-wrap: wrap;">
