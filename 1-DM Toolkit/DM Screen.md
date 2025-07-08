@@ -1,7 +1,10 @@
 ---
 obsidianUIMode: preview
 assa: 
-favor1:: "1"
+favorIlyareth: "1"
+favorNyssara: "0"
+favorVharun: "0"
+favorZareth'Kal: "0"
 ---
 > 
 > <div style="display: flex; gap: 1em; flex-wrap: wrap;">
@@ -86,16 +89,16 @@ favor1:: "1"
 ## Afinidades
 
 
-| Religión   | Favor | Estado      | Favor | 
-| ---------- | ----- | ----------- | ----- |
-| Ilyareth   | 0     | Varkass     | 0     |
-| Nyssara    | 0     | Elkar       | 0     |
-| Vharun     | 0     | Vael Torith | 0     |
-| Zareth'Kal | 0     | Darran-Kar  | 0     |
-|            |       | Aetheryn    | 0     |
-|            |       | Seliar      | 0     |
-|            |       | Velkaris    | 0     |
-|            |       | Myrianor    | 0     |
+| Religión   | Favor                   | Estado      | Favor |
+| ---------- | ----------------------- | ----------- | ----- |
+| Ilyareth   | `=this.favorIlyareth`   | Varkass     | 0     |
+| Nyssara    | `=this.favorNyssara`    | Elkar       | 0     |
+| Vharun     | `=this.favorVharun`     | Vael Torith | 0     |
+| Zareth'Kal | `=this.favorZareth'Kal` | Darran-Kar  | 0     |
+|            |                         | Aetheryn    | 0     |
+|            |                         | Seliar      | 0     |
+|            |                         | Velkaris    | 0     |
+|            |                         | Myrianor    | 0     |
 
 ## Quests
 
