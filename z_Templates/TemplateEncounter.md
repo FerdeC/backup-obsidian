@@ -1,3 +1,8 @@
+---
+tags: "encounter"
+---
+
+
 ```encounter-table
 name: nombre-del-encounter
 creatures:

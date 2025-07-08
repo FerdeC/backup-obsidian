@@ -47,13 +47,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Campaign/Encounters/NewEncounter.md",
+                "file": "z_Templates/TemplateEncounter.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "NewEncounter"
+              "title": "TemplateEncounter"
             }
           }
         ],
@@ -198,12 +198,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2-Campaign/Encounters/NewEncounter.md",
+                "file": "z_Templates/TemplateEncounter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from NewEncounter"
+              "title": "Outgoing links from TemplateEncounter"
             }
           },
           {
@@ -284,6 +284,8 @@
   },
   "active": "cd3761d38367a5ad",
   "lastOpenFiles": [
+    "z_Templates/TemplateQuest.md",
+    "z_Templates/TemplateEncounter.md",
     "2-Campaign/Encounters/Tabla de encuentros.md",
     "2-Campaign/Encounters/NewEncounter.md",
     "1-DM Toolkit/DM Screen.md",
@@ -294,7 +296,6 @@
     "2-Campaign/Quests/Tablón de anuncios.md",
     "5-Session Journals/00. Llegada a Thalmyr.md",
     "z_Templates/TemplateMagicItem.md",
-    "z_Templates/TemplateEncounter.md",
     "2-Campaign/Quests/Quests.md",
     "2-Campaign/Encounters",
     "5-Session Journals/03. El camino a Vael Torith.md",
@@ -311,7 +312,6 @@
     "z_Templates/test.md",
     "0-Obsidian TTRPG Tutorial/0-Obsidian TTRPG Tutorial.md",
     "0-Obsidian TTRPG Tutorial/Untitled.md",
-    "0-Obsidian TTRPG Tutorial/test.md",
     "sync",
     "z_Assets/Pasted image 20250605104306.png",
     "4-Codex Entry/Obtenidos",
