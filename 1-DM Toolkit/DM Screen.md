@@ -4,7 +4,15 @@ assa:
 favorIlyareth: "1"
 favorNyssara: "0"
 favorVharun: "0"
-favorZareth'Kal: "0"
+favorZarethKal: "0"
+favorVarkass: "1"
+favorElkar: "0"
+favorVaelTorith: "0"
+favorDarran-Kar: "0"
+favorAetheryn: "1"
+favorSeliar: "0"
+favorVelkaris: "0"
+favorMyrianor: "0"
 ---
 > 
 > <div style="display: flex; gap: 1em; flex-wrap: wrap;">
@@ -91,14 +99,14 @@ favorZareth'Kal: "0"
 
 | Religión   | Favor                   | Estado      | Favor |
 | ---------- | ----------------------- | ----------- | ----- |
-| Ilyareth   | `=this.favorIlyareth`   | Varkass     | 0     |
-| Nyssara    | `=this.favorNyssara`    | Elkar       | 0     |
-| Vharun     | `=this.favorVharun`     | Vael Torith | 0     |
-| Zareth'Kal | `=this.favorZareth'Kal` | Darran-Kar  | 0     |
-|            |                         | Aetheryn    | 0     |
-|            |                         | Seliar      | 0     |
-|            |                         | Velkaris    | 0     |
-|            |                         | Myrianor    | 0     |
+| Ilyareth   | `=this.favorIlyareth`   | Varkass     | `=this.favorVarkass`     |
+| Nyssara    | `=this.favorNyssara`    | Elkar       | `=this.favorElkar`     |
+| Vharun     | `=this.favorVharun`     | Vael Torith | `=this.favorVaelTorith`     |
+| Zareth'Kal | `=this.favorZarethKal` | Darran-Kar  | `=this.favorDarran-Kar`     |
+|            |                         | Aetheryn    | `=this.favorAetheryn`     |
+|            |                         | Seliar      | `=this.favorSeliar`     |
+|            |                         | Velkaris    | `=this.favorVelkaris`     |
+|            |                         | Myrianor    | `=this.favorMyrianor`     |
 
 ## Quests
 
