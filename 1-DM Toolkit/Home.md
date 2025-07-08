@@ -28,7 +28,7 @@ SORT file.name DESC
 
 
 ```dataview  
-TABLE WITHOUT ID link(file.name) AS "Character Name", Player, Class, Race, level,hp, Role  
+TABLE WITHOUT ID link(file.name) AS "Character Name", Player, Class, Race, level,hp, pasperc AS "Arcana"  
 from "1-Party"  
 where (Role = "Player")  
 where (Status = "Active")  

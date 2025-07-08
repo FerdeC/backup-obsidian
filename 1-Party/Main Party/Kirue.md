@@ -5,7 +5,8 @@ tags:
   - player
 Player: Kira
 Role: Player
-Class: 
+Class:
+  - Druid
 Race:
   - Shifter
 level: 3
