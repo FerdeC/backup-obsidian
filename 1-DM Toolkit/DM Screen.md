@@ -3,7 +3,6 @@ obsidianUIMode: preview
 assa: 
 favor1:: "1"
 ---
-> [!tip]+ Crear nuevo contenido
 > 
 > <div style="display: flex; gap: 1em; flex-wrap: wrap;">
 > 
@@ -79,7 +78,7 @@ favor1:: "1"
 >     fileName: NewPlayer
 > ```
 
-> `BUTTON[button_quest]`
+> `BUTTON[button_quest]`        `BUTTON[button_encounter]`
 > 
 > </div>
 

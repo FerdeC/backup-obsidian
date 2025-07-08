@@ -8,8 +8,6 @@
     "shortName": "Mo"
   },
   "syncInterval": 200,
-  "minSyncInterval": 50,
-  "maxSyncInterval": 1000,
   "enableJs": false,
   "viewFieldDisplayNullAsEmpty": false,
   "enableSyntaxHighlighting": true,
@@ -51,10 +49,29 @@
           "openNote": true
         }
       ]
+    },
+    {
+      "label": "New Encounter",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Click this to create an encounter.",
+      "id": "button_encounter",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "templaterCreateNote",
+          "templateFile": "z_Templates/TemplateEncounter.md",
+          "folderPath": "2-Campaign/Encounters",
+          "fileName": "NewEncounter",
+          "openNote": true
+        }
+      ],
+      "icon": "sword"
     }
   ],
   "excludedFolders": [
     "templates"
   ],
-  "useUsDateInputOrder": false
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000
 }
