@@ -27,6 +27,7 @@
           {
             "id": "a9784298e62f1bf8",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -35,6 +36,7 @@
                 "source": true,
                 "backlinks": false
               },
+              "pinned": true,
               "icon": "lucide-file",
               "title": "DM Screen"
             }
