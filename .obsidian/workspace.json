@@ -191,6 +191,35 @@
               "icon": "dices",
               "title": "Dice Tray"
             }
+          },
+          {
+            "id": "67cdc80024f6cb8a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1-DM Toolkit/DM Screen.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DM Screen"
+            }
+          },
+          {
+            "id": "9e669245f4a6e579",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
           }
         ]
       },
