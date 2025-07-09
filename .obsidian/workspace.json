@@ -56,8 +56,7 @@
               "title": "Tabla de experiencia"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -281,14 +280,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0b8c139adbae05bf",
+  "active": "e09646f8c059b2a9",
   "lastOpenFiles": [
-    "1-DM Toolkit/Untitled.md",
-    "1-DM Toolkit/Tabla de experiencia.md",
-    "1-DM Toolkit/DM Screen.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
-    "2-World/Eliaran.md",
     "1-DM Toolkit/Home.md",
+    "1-DM Toolkit/DM Screen.md",
+    "1-DM Toolkit/Tabla de experiencia.md",
+    "1-DM Toolkit/Untitled.md",
+    "2-World/Eliaran.md",
     "5-Session Journals/02. La Ilusión Rota de Sazseki.md",
     "1-DM Toolkit/Map Calculator.md",
     "2-Campaign/Encounters/Tabla de encuentros.md",
