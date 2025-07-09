@@ -6,9 +6,10 @@ xpActual: 1700
 
 %% This note is designed to be dragged into the left side panel and assumes you are using DnD5e Notes created by the [CLI Process](https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Plugin+Tutorials/TTRPG-Convert-CLI/TTRPG-Convert-CLI+5e). This creates a simple icon that can be used to quickly access links to commonly used rules. Add to this with whatever you need. %%
 
-| Name             | Effect                              |     |
-| ---------------- | ----------------------------------- |
-| Nivel | dv.current().xpActual |     
+| Name             | Effect                              |  
+| ---------------- | ----------------------------------- | 
+| Nivel            | `=this.xpActual`                    |     |
+| Nivel            | `=this.nivel`                       |     |
 | Resistance       | 1/2 dmg                             |     |
 | Immunity         | 0 damage                            |     |
 | Vulnerable       | x2 damage                           |     |
@@ -160,47 +161,3 @@ xpActual: 1700
 > [[Skills#Stealth|Stealth]]
 > [[Skills#Survival|Survival]]
 
->[!info]- Test 
-const xpActual = dv.current().xpActual; // Obtiene la XP actual de esta nota
-const nivelActual = dv.current().nivel; // Obtiene el nivel actual de esta nota
-// Ruta a la nota que contiene la tabla de experiencia
-const xpTableNotePath = "Reglas/Tabla XP D&D 5e"; // ¡Asegúrate de que esta ruta sea correcta!
-// Carga la página de la tabla de XP
-const xpPage = dv.page(xpTableNotePath);
-// Extrae los datos de la tabla (Dataview lee las tablas Markdown automáticamente)
-// `xpPage.file.lists[0]` asume que la tabla es la primera lista/tabla en la nota.
-// Si tienes varias tablas, podrías necesitar ajustar este índice.
-const xpData = xpPage.file.lists[0];
-
-let xpNextLevel = "N/A (Máximo nivel)";
-let nivelDestino = "N/A";
-
-if (xpData) {
-    // Encuentra la XP requerida para el siguiente nivel
-    // Filtramos para encontrar la entrada donde el Nivel es igual al nivelActual + 1
-    const nextLevelEntry = xpData.find(row => row.Nivel === (nivelActual + 1));
-
-    if (nextLevelEntry) {
-        xpNextLevel = nextLevelEntry['XP Requerida'];
-        nivelDestino = nextLevelEntry.Nivel;
-    } else if (nivelActual >= 20) {
-        xpNextLevel = "Ya eres nivel máximo!";
-        nivelDestino = "20";
-    }
-}
-
-let xpFaltante = "No aplica";
-if (typeof xpNextLevel === 'number' && typeof xpActual === 'number') {
-    xpFaltante = xpNextLevel - xpActual;
-} else if (typeof xpNextLevel === 'string' && xpNextLevel.includes("Máximo")) {
-    xpFaltante = "Ya eres nivel máximo!";
-} else {
-    xpFaltante = "Error al calcular (verificar datos)";
-}
-
-dv.el("h3", "Progreso de Nivel");
-dv.el("p", `**Nivel Actual:** ${nivelActual}`);
-dv.el("p", `**XP Actual:** ${xpActual}`);
-dv.el("p", `**Siguiente Nivel:** ${nivelDestino}`);
-dv.el("p", `**XP para el Siguiente Nivel:** ${xpNextLevel}`);
-dv.el("p", `**XP Faltante:** ${xpFaltante}`);

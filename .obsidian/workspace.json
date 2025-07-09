@@ -42,7 +42,7 @@
             }
           },
           {
-            "id": "634bb61bd771f98f",
+            "id": "386b29b46755f428",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -257,7 +257,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 350.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -281,19 +281,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "634bb61bd771f98f",
+  "active": "386b29b46755f428",
   "lastOpenFiles": [
+    "1-DM Toolkit/Tabla de experiencia.md",
+    "1-DM Toolkit/DnD5e-SideScreen.md",
+    "2-World/Eliaran.md",
     "1-DM Toolkit/DM Screen.md",
+    "1-DM Toolkit/Home.md",
     "5-Session Journals/02. La Ilusión Rota de Sazseki.md",
     "1-DM Toolkit/Map Calculator.md",
-    "1-DM Toolkit/DnD5e-SideScreen.md",
     "2-Campaign/Encounters/Tabla de encuentros.md",
     "1-DM Toolkit/Vault Report.md",
-    "1-DM Toolkit/Tabla de experiencia.md",
     "2-Campaign/Encounters/Goblins.md",
     "z_Templates/TemplateEncounter.md",
     "1-Party/Main Party/Thrash.md",
-    "1-DM Toolkit/Home.md",
     "5-Session Journals/01. La Plaga de la Mente.md",
     "1-Party/Main Party/Roglic.md",
     "1-Party/Main Party/Kirue.md",
@@ -305,7 +306,6 @@
     "z_Templates/TemplateMagicItem.md",
     "z_Templates/TemplateGroup.md",
     "z_Templates/TemplateQuest.md",
-    "2-World/Eliaran.md",
     "2-World/deiades.md",
     "2-Campaign/Quests/Tablón de anuncios.md",
     "5-Session Journals/00. Llegada a Thalmyr.md",
