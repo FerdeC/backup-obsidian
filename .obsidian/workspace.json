@@ -251,8 +251,7 @@
               "title": "deiades"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0a7d98635ceab19f",
@@ -297,10 +296,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "99ec441d2f7a9511",
+  "active": "2e6355ae312b2c82",
   "lastOpenFiles": [
-    "2-Campaign/Encounters/Camino1.md",
     "2-Campaign/Encounters/Tabla de encuentros.md",
+    "1-DM Toolkit/DnD5e-SideScreen.md",
+    "2-Campaign/Encounters/Goblins.md",
     "z_Templates/TemplateEncounter.md",
     "5-Session Journals/02. La Ilusión Rota de Sazseki.md",
     "1-DM Toolkit/DM Screen.md",
@@ -319,7 +319,6 @@
     "z_Templates/TemplateQuest.md",
     "2-World/Eliaran.md",
     "2-World/deiades.md",
-    "1-DM Toolkit/DnD5e-SideScreen.md",
     "2-Campaign/Quests/Tablón de anuncios.md",
     "5-Session Journals/00. Llegada a Thalmyr.md",
     "2-Campaign/Quests/Quests.md",
