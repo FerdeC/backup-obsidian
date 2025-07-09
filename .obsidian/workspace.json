@@ -48,7 +48,7 @@
               "type": "markdown",
               "state": {
                 "file": "1-DM Toolkit/Tabla de experiencia.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
@@ -283,8 +283,9 @@
   },
   "active": "0b8c139adbae05bf",
   "lastOpenFiles": [
-    "1-DM Toolkit/DM Screen.md",
+    "1-DM Toolkit/Untitled.md",
     "1-DM Toolkit/Tabla de experiencia.md",
+    "1-DM Toolkit/DM Screen.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
     "2-World/Eliaran.md",
     "1-DM Toolkit/Home.md",
@@ -308,7 +309,6 @@
     "z_Templates/TemplateQuest.md",
     "2-World/deiades.md",
     "2-Campaign/Quests/Tablón de anuncios.md",
-    "5-Session Journals/00. Llegada a Thalmyr.md",
     "2-Campaign/Encounters",
     "z_Assets/Pasted image 20250604201216.png",
     "sync",
