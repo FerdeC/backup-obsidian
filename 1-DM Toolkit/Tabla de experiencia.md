@@ -1,16 +1,17 @@
 # Tabla de Experiencia D&D 5e (4 Columnas)
-<div id="xp-table"></div>  | Nivel | XP Requerida | Nivel | XP Requerida |
+
+| Nivel | XP Requerida | Nivel | XP Requerida |
 | :---- | :----------- | :---- | :----------- |
-| 1     | 0            | 11    | 85,000       |
-| 2     | 300          | 12    | 100,000      |
-| 3     | 900          | 13    | 120,000      |
-| 4     | 2,700        | 14    | 140,000      |
-| 5     | 6,500        | 15    | 165,000      |
-| 6     | 14,000       | 16    | 195,000      |
-| 7     | 23,000       | 17    | 225,000      |
-| 8     | 34,000       | 18    | 265,000      |
-| 9     | 48,000       | 19    | 305,000      |
-| 10    | 64,000       | 20    | 355,000      |
+| 1     | 0            | 11    | 85000        |
+| 2     | 300          | 12    | 100000       |
+| 3     | 900          | 13    | 120000       |
+| 4     | 2700         | 14    | 140000       |
+| 5     | 6500         | 15    | 165000       |
+| 6     | 14000        | 16    | 195000       |
+| 7     | 23000        | 17    | 225000       |
+| 8     | 34000        | 18    | 265000       |
+| 9     | 48000        | 19    | 305000       |
+| 10    | 64000        | 20    | 355000       |
 
 ---
 
@@ -50,29 +51,44 @@ if (!sideScreenPage) {
 
 // Solo procede si la bandera 'canProceed' es verdadera
 if (canProceed) {
-    // MODIFICADO: Extrae los datos de la tabla de XP por su ID en esta misma nota
-    // Busca todas las tablas en la nota actual y filtra por el ID 'xp-table'
-    const allTables = dv.current().file.tables;
-    const xpData = allTables.find(table => table.id === "xp-table");
+    let xpData = null;
+    const allListsInNote = dv.current().file.lists; // Dataview pone las tablas aquí también.
+
+    // ENFOQUE SIMPLIFICADO: Intentar tomar la primera tabla que Dataview encuentre.
+    if (allListsInNote && allListsInNote.length > 0) {
+        for (const list of allListsInNote) {
+            // Un poco de depuración adicional, que puedes descomentar si quieres ver lo que Dataview ve
+            // dv.el("p", `DEBUG: Lista encontrada - Tipo: ${list.type}, Headers: ${list.headers ? list.headers.join('|') : 'N/A'}, Rows: ${list.rows ? list.rows.length : 'N/A'}`);
+
+            if (list.type === 'table' && list.rows && list.rows.length > 0) {
+                // Hemos encontrado una tabla. Asumimos que es la tabla de XP.
+                xpData = list;
+                break; // Salimos del bucle una vez que la encontramos.
+            }
+        }
+    }
 
     let xpNextLevel = "N/A (Máximo nivel)";
     let nivelDestino = "N/A";
 
-    if (xpData && xpData.rows) { // Asegúrate de que 'rows' exista en la tabla encontrada
-        // Aquí necesitamos aplanar los datos de la tabla porque tiene 4 columnas
-        // Queremos buscar en las columnas de nivel y XP de ambas "mitades"
+    // Si encontramos una tabla y tiene filas, procedemos.
+    if (xpData && xpData.rows && xpData.rows.length > 0) {
         let found = false;
         for (const row of xpData.rows) {
+            // Asegúrate de convertir a número antes de comparar
+            const rowNivel1 = Number(row[0]);
+            const rowNivel2 = Number(row[2]);
+
             // Revisa la primera mitad de la tabla
-            if (row[0] === (nivelActual + 1)) { // row[0] es la primera columna 'Nivel'
-                xpNextLevel = Number(row[1]); // row[1] es la primera columna 'XP Requerida'
+            if (rowNivel1 === (nivelActual + 1)) {
+                xpNextLevel = Number(row[1]);
                 nivelDestino = row[0];
                 found = true;
                 break;
             }
             // Revisa la segunda mitad de la tabla
-            if (row[2] === (nivelActual + 1)) { // row[2] es la segunda columna 'Nivel'
-                xpNextLevel = Number(row[3]); // row[3] es la segunda columna 'XP Requerida'
+            if (rowNivel2 === (nivelActual + 1)) {
+                xpNextLevel = Number(row[3]);
                 nivelDestino = row[2];
                 found = true;
                 break;
@@ -88,8 +104,9 @@ if (canProceed) {
         }
 
     } else {
-        dv.el("p", "⚠️ Error: No se pudo encontrar la tabla de XP con el ID 'xp-table' en esta nota, o está vacía.");
-        canProceed = false; // Si no hay tabla, no podemos calcular
+        // Este mensaje de error ahora debería ser más preciso si realmente no hay tablas.
+        dv.el("p", "⚠️ Error: No se pudo encontrar una tabla válida en esta nota, o está vacía.");
+        canProceed = false;
     }
 }
 
