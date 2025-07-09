@@ -152,7 +152,7 @@
     "creatures": [
       {
         "name": "Roglic",
-        "initiative": 20,
+        "initiative": 25,
         "static": false,
         "modifier": 5,
         "hp": 28,
@@ -174,7 +174,7 @@
       },
       {
         "name": "Kaia",
-        "initiative": 23,
+        "initiative": 12,
         "static": false,
         "modifier": 3,
         "hp": 28,
@@ -196,7 +196,7 @@
       },
       {
         "name": "Kirue",
-        "initiative": 9,
+        "initiative": 3,
         "static": false,
         "modifier": 1,
         "hp": 28,
@@ -218,7 +218,7 @@
       },
       {
         "name": "Thrash",
-        "initiative": 6,
+        "initiative": 4,
         "static": false,
         "modifier": 0,
         "hp": 36,

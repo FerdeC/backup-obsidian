@@ -62,13 +62,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Campaign/Encounters/NewEncounter.md",
-                "mode": "source",
+                "file": "2-Campaign/Encounters/Tabla de encuentros.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "NewEncounter"
+              "title": "Tabla de encuentros"
             }
           }
         ],
@@ -299,11 +299,11 @@
   },
   "active": "99ec441d2f7a9511",
   "lastOpenFiles": [
-    "z_Templates/TemplateEncounter.md",
-    "2-Campaign/Encounters/NewEncounter.md",
+    "2-Campaign/Encounters/Camino1.md",
     "2-Campaign/Encounters/Tabla de encuentros.md",
-    "1-DM Toolkit/DM Screen.md",
+    "z_Templates/TemplateEncounter.md",
     "5-Session Journals/02. La Ilusión Rota de Sazseki.md",
+    "1-DM Toolkit/DM Screen.md",
     "1-Party/Main Party/Thrash.md",
     "1-DM Toolkit/Home.md",
     "5-Session Journals/01. La Plaga de la Mente.md",

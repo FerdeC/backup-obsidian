@@ -1,6 +1,7 @@
 ---
 tags:
   - encounter
+level: 3
 tipo:
   - camino
 enemigos:
