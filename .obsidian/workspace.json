@@ -62,13 +62,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-Campaign/Encounters/Tabla de encuentros.md",
-                "mode": "preview",
+                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Tabla de encuentros"
+              "title": "DnD5e-SideScreen"
             }
           }
         ],
@@ -296,9 +296,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2e6355ae312b2c82",
+  "active": "99ec441d2f7a9511",
   "lastOpenFiles": [
     "2-Campaign/Encounters/Tabla de encuentros.md",
+    "1-DM Toolkit/Vault Report.md",
+    "1-DM Toolkit/Tabla de experiencia.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
     "2-Campaign/Encounters/Goblins.md",
     "z_Templates/TemplateEncounter.md",
@@ -323,9 +325,7 @@
     "5-Session Journals/00. Llegada a Thalmyr.md",
     "2-Campaign/Quests/Quests.md",
     "2-Campaign/Encounters",
-    "5-Session Journals/03. El camino a Vael Torith.md",
     "z_Assets/Pasted image 20250604201216.png",
-    "2-Campaign/Quests/A - Investigación del templo Gharah_Te.md",
     "sync",
     "z_Assets/Pasted image 20250605104306.png",
     "4-Codex Entry/Obtenidos",
