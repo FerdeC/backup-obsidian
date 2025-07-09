@@ -1,6 +1,5 @@
 # Tabla de Experiencia D&D 5e (4 Columnas)
-
-| Nivel | XP Requerida | Nivel | XP Requerida |
+<div id="xp-table"></div>  | Nivel | XP Requerida | Nivel | XP Requerida |
 | :---- | :----------- | :---- | :----------- |
 | 1     | 0            | 11    | 85,000       |
 | 2     | 300          | 12    | 100,000      |
@@ -24,62 +23,91 @@ const sideScreenNotePath = "1-DM Toolkit/DnD5e-SideScreen.md"; // ¡Verifica que
 // Carga la página de la pantalla lateral
 const sideScreenPage = dv.page(sideScreenNotePath);
 
-// Asegúrate de que la página se cargó correctamente y tiene las propiedades
+// Inicializa las variables
 let xpActual = 0;
 let nivelActual = 0;
+let canProceed = true; // Bandera para controlar la ejecución
 
-if (sideScreenPage) {
-    if (sideScreenPage.xpActual !== undefined) {
-        xpActual = Number(sideScreenPage.xpActual); // Asegura que sea un número
-    } else {
-        dv.el("p", `⚠️ Error: Propiedad 'xpActual' no encontrada en "${sideScreenNotePath}".`);
-        return; // Detiene la ejecución si falta xpActual
-    }
-    if (sideScreenPage.nivel !== undefined) {
-        nivelActual = Number(sideScreenPage.nivel); // Asegura que sea un número
-    } else {
-        dv.el("p", `⚠️ Error: Propiedad 'nivel' no encontrada en "${sideScreenNotePath}".`);
-        return; // Detiene la ejecución si falta nivel
-    }
-} else {
+// --- Validación y obtención de datos ---
+if (!sideScreenPage) {
     dv.el("p", `⚠️ Error: No se pudo cargar la nota "${sideScreenNotePath}".`);
-    return; // Detiene la ejecución si la nota no se encuentra
-}
-
-// Extrae los datos de la tabla de XP en esta misma nota
-// `dv.current().file.lists[0]` obtiene la primera tabla de la nota actual.
-const xpData = dv.current().file.lists[0];
-
-let xpNextLevel = "N/A (Máximo nivel)";
-let nivelDestino = "N/A";
-
-if (xpData) {
-    const nextLevelEntry = xpData.find(row => row.Nivel === (nivelActual + 1));
-
-    if (nextLevelEntry) {
-        xpNextLevel = Number(nextLevelEntry['XP Requerida']); // Asegura que sea un número
-        nivelDestino = nextLevelEntry.Nivel;
-    } else if (nivelActual >= 20) {
-        xpNextLevel = "Ya eres nivel máximo!";
-        nivelDestino = "20";
+    canProceed = false;
+} else {
+    if (sideScreenPage.xpActual === undefined) {
+        dv.el("p", `⚠️ Error: Propiedad 'xpActual' no encontrada en "${sideScreenNotePath}".`);
+        canProceed = false;
+    } else {
+        xpActual = Number(sideScreenPage.xpActual); // Asegura que sea un número
     }
-} else {
-    dv.el("p", "⚠️ Error: No se pudo encontrar la tabla de XP en esta nota.");
-    return;
+
+    if (sideScreenPage.nivel === undefined) {
+        dv.el("p", `⚠️ Error: Propiedad 'nivel' no encontrada en "${sideScreenNotePath}".`);
+        canProceed = false;
+    } else {
+        nivelActual = Number(sideScreenPage.nivel); // Asegura que sea un número
+    }
 }
 
-let xpFaltante = "No aplica";
-if (typeof xpNextLevel === 'number' && typeof xpActual === 'number') {
-    xpFaltante = xpNextLevel - xpActual;
-} else if (typeof xpNextLevel === 'string' && xpNextLevel.includes("Máximo")) {
-    xpFaltante = "Ya eres nivel máximo!";
-} else {
-    xpFaltante = "Error al calcular (verificar datos o formato de XP)";
+// Solo procede si la bandera 'canProceed' es verdadera
+if (canProceed) {
+    // MODIFICADO: Extrae los datos de la tabla de XP por su ID en esta misma nota
+    // Busca todas las tablas en la nota actual y filtra por el ID 'xp-table'
+    const allTables = dv.current().file.tables;
+    const xpData = allTables.find(table => table.id === "xp-table");
+
+    let xpNextLevel = "N/A (Máximo nivel)";
+    let nivelDestino = "N/A";
+
+    if (xpData && xpData.rows) { // Asegúrate de que 'rows' exista en la tabla encontrada
+        // Aquí necesitamos aplanar los datos de la tabla porque tiene 4 columnas
+        // Queremos buscar en las columnas de nivel y XP de ambas "mitades"
+        let found = false;
+        for (const row of xpData.rows) {
+            // Revisa la primera mitad de la tabla
+            if (row[0] === (nivelActual + 1)) { // row[0] es la primera columna 'Nivel'
+                xpNextLevel = Number(row[1]); // row[1] es la primera columna 'XP Requerida'
+                nivelDestino = row[0];
+                found = true;
+                break;
+            }
+            // Revisa la segunda mitad de la tabla
+            if (row[2] === (nivelActual + 1)) { // row[2] es la segunda columna 'Nivel'
+                xpNextLevel = Number(row[3]); // row[3] es la segunda columna 'XP Requerida'
+                nivelDestino = row[2];
+                found = true;
+                break;
+            }
+        }
+
+        if (!found && nivelActual < 20) {
+             dv.el("p", `⚠️ Error: Nivel ${nivelActual + 1} no encontrado en la tabla de XP.`);
+             canProceed = false;
+        } else if (nivelActual >= 20) {
+            xpNextLevel = "Ya eres nivel máximo!";
+            nivelDestino = "20";
+        }
+
+    } else {
+        dv.el("p", "⚠️ Error: No se pudo encontrar la tabla de XP con el ID 'xp-table' en esta nota, o está vacía.");
+        canProceed = false; // Si no hay tabla, no podemos calcular
+    }
 }
 
-dv.el("h3", "Resumen de Progreso");
-dv.el("p", `**Nivel Actual:** ${nivelActual}`);
-dv.el("p", `**XP Actual:** ${xpActual}`);
-dv.el("p", `**Siguiente Nivel:** ${nivelDestino}`);
-dv.el("p", `**XP para el Siguiente Nivel:** ${xpNextLevel}`);
-dv.el("p", `**XP Faltante:** ${xpFaltante}`);
+// --- Renderizado de resultados (solo si todo fue bien) ---
+if (canProceed) {
+    let xpFaltante = "No aplica";
+    if (typeof xpNextLevel === 'number' && typeof xpActual === 'number') {
+        xpFaltante = xpNextLevel - xpActual;
+    } else if (typeof xpNextLevel === 'string' && xpNextLevel.includes("Máximo")) {
+        xpFaltante = "Ya eres nivel máximo!";
+    } else {
+        xpFaltante = "Error al calcular (verificar datos o formato de XP)";
+    }
+
+    dv.el("h3", "Resumen de Progreso");
+    dv.el("p", `**Nivel Actual:** ${nivelActual}`);
+    dv.el("p", `**XP Actual:** ${xpActual}`);
+    dv.el("p", `**Siguiente Nivel:** ${nivelDestino}`);
+    dv.el("p", `**XP para el Siguiente Nivel:** ${xpNextLevel}`);
+    dv.el("p", `**XP Faltante:** ${xpFaltante}`);
+}
