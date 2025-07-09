@@ -8,16 +8,16 @@ xpActual: 1700
 
 | Name             | Effect                              |  
 | ---------------- | ----------------------------------- | 
-| Nivel            | `=this.xpActual`                    |     |
-| Nivel            | `=this.nivel`                       |     |
-| Resistance       | 1/2 dmg                             |     |
-| Immunity         | 0 damage                            |     |
-| Vulnerable       | x2 damage                           |     |
-| Half-Cover       | +2 ac                               |     |
-| 3/4 Cover        | +5 ac                               |     |
-| Total Cover      | Can't be targeted directly          |     |
-| Obscured         | Disadvantage                        |     |
-| Lightly Obscured | Disadvantage on Wisdom (Perception) |     |
+| Nivel            | `=this.xpActual`                    | 
+| Nivel            | `=this.nivel`                       |
+| Resistance       | 1/2 dmg                             | 
+| Immunity         | 0 damage                            | 
+| Vulnerable       | x2 damage                           |
+| Half-Cover       | +2 ac                               |
+| 3/4 Cover        | +5 ac                               | 
+| Total Cover      | Can't be targeted directly          |
+| Obscured         | Disadvantage                        |
+| Lightly Obscured | Disadvantage on Wisdom (Perception) |
 
 <br>
 

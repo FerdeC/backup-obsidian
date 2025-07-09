@@ -42,18 +42,18 @@
             }
           },
           {
-            "id": "386b29b46755f428",
+            "id": "0b8c139adbae05bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
-                "mode": "source",
+                "file": "1-DM Toolkit/Tabla de experiencia.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DnD5e-SideScreen"
+              "title": "Tabla de experiencia"
             }
           }
         ],
@@ -281,12 +281,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "386b29b46755f428",
+  "active": "0b8c139adbae05bf",
   "lastOpenFiles": [
+    "1-DM Toolkit/DM Screen.md",
     "1-DM Toolkit/Tabla de experiencia.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
     "2-World/Eliaran.md",
-    "1-DM Toolkit/DM Screen.md",
     "1-DM Toolkit/Home.md",
     "5-Session Journals/02. La Ilusión Rota de Sazseki.md",
     "1-DM Toolkit/Map Calculator.md",
