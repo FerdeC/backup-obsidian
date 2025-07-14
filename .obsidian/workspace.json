@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "5-Session Journals/03. El camino a Vael Torith.md",
+                "file": "1-DM Toolkit/DM Screen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 03. El camino a Vael Torith"
+              "title": "Outgoing links from DM Screen"
             }
           },
           {
@@ -232,13 +232,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "5-Session Journals/03. El camino a Vael Torith.md",
+                "file": "1-DM Toolkit/DM Screen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 03. El camino a Vael Torith"
+              "title": "Outline of DM Screen"
             }
           }
         ]
@@ -347,10 +347,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91d44d5b230d09f0",
+  "active": "77779000071819ce",
   "lastOpenFiles": [
-    "1-DM Toolkit/DnD5e-SideScreen.md",
     "5-Session Journals/03. El camino a Vael Torith.md",
+    "1-DM Toolkit/DnD5e-SideScreen.md",
     "1-DM Toolkit/DM Screen.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
     "1-Party/Main Party/Kirue.md",
