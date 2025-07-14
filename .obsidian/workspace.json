@@ -240,13 +240,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "file": "1-Party/Main Party/Thrash.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DnD5e-SideScreen"
+              "title": "Outline of Thrash"
             }
           },
           {
@@ -310,12 +310,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "compendium/tables/armor-and-shields-armor.md",
+                "file": "1-Party/Main Party/Thrash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from armor-and-shields-armor"
+              "title": "Outgoing links from Thrash"
             }
           }
         ]
@@ -363,8 +363,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e6355ae312b2c82",
+  "active": "be4194c60d6ad9eb",
   "lastOpenFiles": [
+    "compendium/tables/armor-and-shields-armor.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
     "1-Party/Main Party/Thrash.md",
     "1-Party/Main Party/Roglic.md",
@@ -393,7 +394,6 @@
     "sync",
     "4-Codex Entry/NOTE - Entrada de diario de Aric 03.md",
     "4-Codex Entry/NOTE - Entrada de diario de Aric 02.md",
-    "4-Codex Entry/NOTE - Entrada de diario de Aric 01.md",
     "z_Assets/Pasted image 20250605104306.png",
     "4-Codex Entry/Obtenidos",
     "z_Assets/Pasted image 20250606150616.png",
