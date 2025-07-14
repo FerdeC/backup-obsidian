@@ -1,6 +1,6 @@
 ---
 questObtained: 2025-06-15T00:00:00-06:00
-questStatus: In Progress
+questStatus: Complete
 questGiver: clériga Ithira Vonn
 questLocationObtained: Thalmyr (Varkass)
 questSessionObtained: "[[00. Llegada a Thalmyr|00. Llegada a Thalmyr]]"
