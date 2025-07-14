@@ -48,7 +48,7 @@
               "type": "markdown",
               "state": {
                 "file": "5-Session Journals/03. El camino a Vael Torith.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
@@ -203,12 +203,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "file": "5-Session Journals/03. El camino a Vael Torith.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DnD5e-SideScreen"
+              "title": "Outgoing links from 03. El camino a Vael Torith"
             }
           },
           {
@@ -232,13 +232,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "file": "5-Session Journals/03. El camino a Vael Torith.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DnD5e-SideScreen"
+              "title": "Outline of 03. El camino a Vael Torith"
             }
           }
         ]
@@ -347,8 +347,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21d7f8ea889b6484",
+  "active": "91d44d5b230d09f0",
   "lastOpenFiles": [
+    "1-DM Toolkit/DnD5e-SideScreen.md",
     "5-Session Journals/03. El camino a Vael Torith.md",
     "1-DM Toolkit/DM Screen.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
@@ -356,7 +357,6 @@
     "1-Party/Main Party/Kaia.md",
     "1-Party/Main Party/Thrash.md",
     "1-Party/Main Party/Roglic.md",
-    "1-DM Toolkit/DnD5e-SideScreen.md",
     "1-DM Toolkit/Home.md",
     "1-Party/Main Party/Main Party.md",
     "compendium/tables/armor-and-shields-armor.md",

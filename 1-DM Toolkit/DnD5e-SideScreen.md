@@ -1,7 +1,7 @@
 ---
 obsidianUIMode: preview
 nivel: 3
-xpActual: 1700
+xpActual: 2000
 ---
 
 %% This note is designed to be dragged into the left side panel and assumes you are using DnD5e Notes created by the [CLI Process](https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Plugin+Tutorials/TTRPG-Convert-CLI/TTRPG-Convert-CLI+5e). This creates a simple icon that can be used to quickly access links to commonly used rules. Add to this with whatever you need. %%
