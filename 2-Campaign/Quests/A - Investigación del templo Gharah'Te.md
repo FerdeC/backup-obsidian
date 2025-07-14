@@ -3,7 +3,7 @@ questObtained: 2025-06-15T00:00:00-06:00
 questStatus: In Progress
 questGiver: clériga Ithira Vonn
 questLocationObtained: Thalmyr (Varkass)
-questSessionObtained: "[[5-Session Journals/0. Llegada a Thalmyr.md|0. Llegada a Thalmyr]]"
+questSessionObtained: "[[00. Llegada a Thalmyr|00. Llegada a Thalmyr]]"
 questNotes: Investigar la falta de respuesta del templo Gharah'Te a las afueras de Sazseki, en el estado de Varkass.
 questLootAvail: Nota con lore
 questLookEarned: CX-053

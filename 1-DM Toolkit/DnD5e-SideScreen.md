@@ -1,28 +1,40 @@
 ---
 obsidianUIMode: preview
+nivel: 3
+xpActual: 1700
 ---
 
 %% This note is designed to be dragged into the left side panel and assumes you are using DnD5e Notes created by the [CLI Process](https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Plugin+Tutorials/TTRPG-Convert-CLI/TTRPG-Convert-CLI+5e). This creates a simple icon that can be used to quickly access links to commonly used rules. Add to this with whatever you need. %%
 
-| Name        | Effect                     |
-| ----------- | -------------------------- |
-| Resistance  | 1/2 dmg                    |
-| Immunity    | 0 damage                   |
-| Vulnerable  | x2 damage                  |
-| Half-Cover  | +2 ac                      |
-| 3/4 Cover   | +5 ac                      |
-| Total Cover | Can't be targeted directly |
-| Obscured            |   Disadvantage                         |
+| Name             | Effect                              |  
+| ---------------- | ----------------------------------- | 
+| Nivel            | `=this.xpActual`                    | 
+| Nivel            | `=this.nivel`                       |
+| Resistance       | 1/2 dmg                             | 
+| Immunity         | 0 damage                            | 
+| Vulnerable       | x2 damage                           |
+| Half-Cover       | +2 ac                               |
+| 3/4 Cover        | +5 ac                               | 
+| Total Cover      | Can't be targeted directly          |
+| Obscured         | Disadvantage                        |
 | Lightly Obscured | Disadvantage on Wisdom (Perception) |
 
 <br>
 
 
-> [!warning]+ IMPORTANT
-> I set lots of people reporting broken links with this step. When you run the CLI process you must include the PHB in the 'Books' section of your config file as the 'From' section does not create the notes that you need. See the [Configuration File Documentation](https://github.com/ebullient/ttrpg-convert-cli/blob/main/docs/configuration.md) for details.
-> Example:
-> ![[DnD5e-SideScreen-20240405084646428.webp]]
-
+> [!info]- Tabla de experiencia
+| Nivel | XP Requerida | Nivel | XP Requerida |
+| :---- | :----------- | :---- | :----------- |
+| 1     | 0            | 11    | 85,000       |
+| 2     | 300          | 12    | 100,000      |
+| 3     | 900          | 13    | 120,000      |
+| 4     | 2,700        | 14    | 140,000      |
+| 5     | 6,500        | 15    | 165,000      |
+| 6     | 14,000       | 16    | 195,000      |
+| 7     | 23,000       | 17    | 225,000      |
+| 8     | 34,000       | 18    | 265,000      |
+| 9     | 48,000       | 19    | 305,000      |
+| 10    | 64,000       | 20    | 355,000      |
 
 > [!info]- Abilities
 > [[08-using-ability-scores#Dexterity|Dexterity]]
@@ -148,3 +160,4 @@ obsidianUIMode: preview
 > [[Skills#Sleight of Hand|Sleight of Hand]]
 > [[Skills#Stealth|Stealth]]
 > [[Skills#Survival|Survival]]
+

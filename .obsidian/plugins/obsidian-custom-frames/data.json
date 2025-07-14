@@ -30,7 +30,7 @@
       "hideOnMobile": true,
       "addRibbonIcon": false,
       "openInCenter": false,
-      "zoomLevel": 1,
+      "zoomLevel": 0.8,
       "forceIframe": false,
       "customCss": "",
       "customJs": ""

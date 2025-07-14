@@ -152,7 +152,7 @@
     "creatures": [
       {
         "name": "Roglic",
-        "initiative": 13,
+        "initiative": 25,
         "static": false,
         "modifier": 5,
         "hp": 28,
@@ -161,12 +161,8 @@
         "currentAC": 17,
         "note": "Roglic",
         "path": "1-Party/Main Party/Roglic.md",
-<<<<<<< HEAD
-        "id": "ID_d9aa8b19583a",
-=======
-        "id": "ID_49d8f839bae9",
->>>>>>> origin/master
-        "currentHP": 28,
+        "id": "ID_d949eaa9f8c8",
+        "currentHP": 27,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -178,7 +174,7 @@
       },
       {
         "name": "Kaia",
-        "initiative": 21,
+        "initiative": 12,
         "static": false,
         "modifier": 3,
         "hp": 28,
@@ -187,12 +183,8 @@
         "currentAC": 13,
         "note": "Kaia",
         "path": "1-Party/Main Party/Kaia.md",
-<<<<<<< HEAD
-        "id": "ID_5bb8796a4a68",
-=======
-        "id": "ID_48082bd8abb8",
->>>>>>> origin/master
-        "currentHP": 28,
+        "id": "ID_69d84b592909",
+        "currentHP": 26,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -204,7 +196,7 @@
       },
       {
         "name": "Kirue",
-        "initiative": 6,
+        "initiative": 3,
         "static": false,
         "modifier": 1,
         "hp": 28,
@@ -213,11 +205,7 @@
         "currentAC": 17,
         "note": "Kirue",
         "path": "1-Party/Main Party/Kirue.md",
-<<<<<<< HEAD
-        "id": "ID_4a3a09ba9aa9",
-=======
-        "id": "ID_89e95a4ad86a",
->>>>>>> origin/master
+        "id": "ID_5b9bab492b28",
         "currentHP": 28,
         "tempHP": 0,
         "status": [],
@@ -230,7 +218,7 @@
       },
       {
         "name": "Thrash",
-        "initiative": 11,
+        "initiative": 4,
         "static": false,
         "modifier": 0,
         "hp": 36,
@@ -239,11 +227,7 @@
         "currentAC": 18,
         "note": "Thrash",
         "path": "1-Party/Main Party/Thrash.md",
-<<<<<<< HEAD
-        "id": "ID_189baaeb88c9",
-=======
-        "id": "ID_893ac9aaa8aa",
->>>>>>> origin/master
+        "id": "ID_3b69cadb9baa",
         "currentHP": 36,
         "tempHP": 0,
         "status": [],
