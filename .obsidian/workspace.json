@@ -56,8 +56,7 @@
               "title": "A - Investigación del templo Gharah'Te"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,12 +202,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-DM Toolkit/DM Screen.md",
+                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DM Screen"
+              "title": "Outgoing links from DnD5e-SideScreen"
             }
           },
           {
@@ -232,13 +231,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-DM Toolkit/DM Screen.md",
+                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DM Screen"
+              "title": "Outline of DnD5e-SideScreen"
             }
           }
         ]
@@ -318,7 +317,8 @@
               "title": "Thrash"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -346,14 +346,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77779000071819ce",
+  "active": "21d7f8ea889b6484",
   "lastOpenFiles": [
-    "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
-    "1-DM Toolkit/DM Screen.md",
-    "1-DM Toolkit/Home.md",
-    "1-Party/Main Party/Kaia.md",
-    "1-Party/Main Party/Roglic.md",
     "1-Party/Main Party/Kirue.md",
+    "1-Party/Main Party/Roglic.md",
+    "1-Party/Main Party/Kaia.md",
+    "1-DM Toolkit/Home.md",
+    "1-DM Toolkit/DM Screen.md",
+    "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
     "1-Party/Main Party/Thrash.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
     "1-Party/Main Party/Main Party.md",
