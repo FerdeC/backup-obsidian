@@ -125,7 +125,7 @@
       {
         "id": "09384058bb1c4e72",
         "type": "tabs",
-        "dimension": 59.166666666666664,
+        "dimension": 59.16666666666666,
         "children": [
           {
             "id": "2e6355ae312b2c82",
@@ -332,55 +332,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "755f3ee7a7287bc4",
-    "type": "floating",
-    "children": [
-      {
-        "id": "eb000e38cdcdfd03",
-        "type": "window",
-        "children": [
-          {
-            "id": "040c4c211694ef11",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "774e969c87dd2b9c",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "z_Assets/Pasted image 20250604201216.png"
-                  },
-                  "icon": "lucide-image",
-                  "title": "Pasted image 20250604201216"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 582,
-        "y": 305,
-        "width": 1025,
-        "height": 801,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "3acf779fc9980c28",
   "lastOpenFiles": [
+    "z_Assets/Pasted image 20250604201216.png",
+    "1-DM Toolkit/DM Screen.md",
     "1-Party/Main Party/Thrash.md",
     "1-Party/Main Party/Kirue.md",
     "1-Party/Main Party/Roglic.md",
     "1-Party/Main Party/Kaia.md",
-    "1-DM Toolkit/DM Screen.md",
     "2-World/deiades.md",
     "1-DM Toolkit/Home.md",
     "5-Session Journals/03. El camino a Vael Torith.md",
     "2-World/Eliaran.md",
-    "z_Assets/Pasted image 20250604201216.png",
     "2-World/Varkass.md",
     "1-Party/Main Party/Main Party.md",
     "compendium/tables/armor-and-shields-armor.md",

@@ -4,14 +4,14 @@ assa:
 favorIlyareth: "1"
 favorNyssara: "0"
 favorVharun: "0"
-favorZarethKal: "0"
+favorZarethKal: "1"
 favorVarkass: "1"
 favorElkar: "0"
 favorVaelTorith: "0"
 favorDarran-Kar: "0"
 favorAetheryn: "1"
 favorSeliar: "0"
-favorVelkaris: "5"
+favorVelkaris: "0"
 favorMyrianor: "0"
 ---
 > 
