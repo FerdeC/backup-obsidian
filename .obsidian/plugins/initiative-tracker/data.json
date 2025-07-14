@@ -1,5 +1,46 @@
 {
-  "players": [],
+  "players": [
+    {
+      "note": "Kirue",
+      "path": "1-Party/Main Party/Kirue.md",
+      "name": "Kirue",
+      "ac": 17,
+      "hp": 28,
+      "level": 3,
+      "modifier": 1,
+      "player": true
+    },
+    {
+      "note": "Kaia",
+      "path": "1-Party/Main Party/Kaia.md",
+      "name": "Kaia",
+      "ac": 13,
+      "hp": 28,
+      "level": 3,
+      "modifier": 3,
+      "player": true
+    },
+    {
+      "note": "Roglic",
+      "path": "1-Party/Main Party/Roglic.md",
+      "name": "Roglic",
+      "ac": 17,
+      "hp": 28,
+      "level": 3,
+      "modifier": 5,
+      "player": true
+    },
+    {
+      "note": "Thrash",
+      "path": "1-Party/Main Party/Thrash.md",
+      "name": "Thrash",
+      "ac": 17,
+      "hp": 36,
+      "level": 3,
+      "modifier": 3,
+      "player": true
+    }
+  ],
   "parties": [],
   "defaultParty": null,
   "statuses": [
