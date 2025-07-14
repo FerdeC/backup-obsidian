@@ -225,13 +225,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "file": "compendium/tables/armor-and-shields-armor.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DnD5e-SideScreen"
+              "title": "armor-and-shields-armor"
             }
           },
           {
@@ -310,12 +310,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-DM Toolkit/DnD5e-SideScreen.md",
+                "file": "compendium/tables/armor-and-shields-armor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DnD5e-SideScreen"
+              "title": "Outgoing links from armor-and-shields-armor"
             }
           }
         ]
@@ -365,8 +365,8 @@
   },
   "active": "2e6355ae312b2c82",
   "lastOpenFiles": [
-    "1-Party/Main Party/Thrash.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
+    "1-Party/Main Party/Thrash.md",
     "1-Party/Main Party/Roglic.md",
     "1-Party/Main Party/Main Party.md",
     "1-DM Toolkit/Home.md",
