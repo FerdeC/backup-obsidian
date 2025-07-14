@@ -41,8 +41,18 @@
       "player": true
     }
   ],
-  "parties": [],
-  "defaultParty": null,
+  "parties": [
+    {
+      "name": "Main",
+      "players": [
+        "Kirue",
+        "Kaia",
+        "Roglic",
+        "Thrash"
+      ]
+    }
+  ],
+  "defaultParty": "Main",
   "statuses": [
     {
       "name": "Blinded",
