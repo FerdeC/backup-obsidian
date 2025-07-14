@@ -122,13 +122,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Party/Main Party/Kirue.md",
+                "file": "1-Party/Main Party/Kaia.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Kirue"
+              "title": "Kaia"
             }
           }
         ],
@@ -238,13 +238,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Party/Main Party/Kirue.md",
+                "file": "1-Party/Main Party/Kaia.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kirue"
+              "title": "Outline of Kaia"
             }
           },
           {
@@ -308,12 +308,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Party/Main Party/Kirue.md",
+                "file": "1-Party/Main Party/Kaia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kirue"
+              "title": "Outgoing links from Kaia"
             }
           }
         ]
@@ -363,10 +363,10 @@
   },
   "active": "be4194c60d6ad9eb",
   "lastOpenFiles": [
-    "1-Party/Main Party/Kaia.md",
-    "1-Party/Main Party/Kirue.md",
-    "1-Party/Main Party/Main Party.md",
     "1-Party/Main Party/Roglic.md",
+    "1-Party/Main Party/Kirue.md",
+    "1-Party/Main Party/Kaia.md",
+    "1-Party/Main Party/Main Party.md",
     "1-Party/Main Party/Thrash.md",
     "compendium/tables/armor-and-shields-armor.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
