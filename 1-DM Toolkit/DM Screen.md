@@ -4,7 +4,7 @@ assa:
 favorIlyareth: "1"
 favorNyssara: "0"
 favorVharun: "0"
-favorZarethKal: "1"
+favorZarethKal: "2"
 favorVarkass: "1"
 favorElkar: "0"
 favorVaelTorith: "0"
