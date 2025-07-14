@@ -131,8 +131,7 @@
               "title": "Kaia"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -238,13 +237,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Party/Main Party/Kaia.md",
+                "file": "1-DM Toolkit/Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kaia"
+              "title": "Outline of Home"
             }
           },
           {
@@ -308,12 +307,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Party/Main Party/Kaia.md",
+                "file": "1-DM Toolkit/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Kaia"
+              "title": "Outgoing links from Home"
             }
           }
         ]
@@ -361,11 +360,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be4194c60d6ad9eb",
+  "active": "e09646f8c059b2a9",
   "lastOpenFiles": [
+    "1-DM Toolkit/DM Screen.md",
+    "1-Party/Main Party/Kaia.md",
     "1-Party/Main Party/Roglic.md",
     "1-Party/Main Party/Kirue.md",
-    "1-Party/Main Party/Kaia.md",
     "1-Party/Main Party/Main Party.md",
     "1-Party/Main Party/Thrash.md",
     "compendium/tables/armor-and-shields-armor.md",
@@ -385,7 +385,6 @@
     "z_Assets/Pasted image 20250604201216.png",
     "2-World/deiades.md",
     "2-World/Eliaran.md",
-    "1-DM Toolkit/DM Screen.md",
     "5-Session Journals/2. Misterio en Saszeki resuelto.md",
     "5-Session Journals/1. El Secreto de Sazseki.md",
     "0-Obsidian TTRPG Tutorial/0-Obsidian TTRPG Tutorial.md",
