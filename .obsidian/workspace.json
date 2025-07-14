@@ -42,21 +42,6 @@
             }
           },
           {
-            "id": "a1851b78b61af123",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5-Session Journals/2. Misterio en Saszeki resuelto.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Misterio en Saszeki resuelto"
-            }
-          },
-          {
             "id": "12871a418db78413",
             "type": "leaf",
             "state": {
@@ -144,6 +129,21 @@
               },
               "icon": "lucide-file",
               "title": "03. El camino a Vael Torith"
+            }
+          },
+          {
+            "id": "46e939cd662852fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2-World/Eliaran.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Eliaran"
             }
           }
         ],
@@ -376,11 +376,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bba6cfc103ea07b5",
+  "floating": {
+    "id": "755f3ee7a7287bc4",
+    "type": "floating",
+    "children": [
+      {
+        "id": "eb000e38cdcdfd03",
+        "type": "window",
+        "children": [
+          {
+            "id": "040c4c211694ef11",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "774e969c87dd2b9c",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "z_Assets/Pasted image 20250604201216.png"
+                  },
+                  "icon": "lucide-image",
+                  "title": "Pasted image 20250604201216"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 582,
+        "y": 305,
+        "width": 1025,
+        "height": 801,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "774e969c87dd2b9c",
   "lastOpenFiles": [
+    "2-World/Eliaran.md",
+    "z_Assets/Pasted image 20250604201216.png",
+    "2-World/Varkass.md",
     "1-DM Toolkit/Home.md",
-    "1-DM Toolkit/DM Screen.md",
     "1-Party/Main Party/Kaia.md",
+    "1-DM Toolkit/DM Screen.md",
+    "5-Session Journals/03. El camino a Vael Torith.md",
     "1-Party/Main Party/Roglic.md",
     "1-Party/Main Party/Kirue.md",
     "1-Party/Main Party/Main Party.md",
@@ -388,7 +429,6 @@
     "compendium/tables/armor-and-shields-armor.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
     "z_Templates/TemplateEncounter.md",
-    "5-Session Journals/03. El camino a Vael Torith.md",
     "5-Session Journals/02. La Ilusión Rota de Sazseki.md",
     "5-Session Journals/01. La Plaga de la Mente.md",
     "2-Campaign/Encounters/Goblins.md",
@@ -398,15 +438,11 @@
     "conflict-files-obsidian-git.md",
     "0-Obsidian TTRPG Tutorial/test.md",
     "0-Obsidian TTRPG Tutorial/Untitled.md",
-    "z_Assets/Pasted image 20250604201216.png",
     "2-World/deiades.md",
-    "2-World/Eliaran.md",
     "5-Session Journals/2. Misterio en Saszeki resuelto.md",
     "5-Session Journals/1. El Secreto de Sazseki.md",
     "0-Obsidian TTRPG Tutorial/0-Obsidian TTRPG Tutorial.md",
     "sync",
-    "4-Codex Entry/NOTE - Entrada de diario de Aric 03.md",
-    "4-Codex Entry/NOTE - Entrada de diario de Aric 02.md",
     "z_Assets/Pasted image 20250605104306.png",
     "4-Codex Entry/Obtenidos",
     "z_Assets/Pasted image 20250606150616.png",
