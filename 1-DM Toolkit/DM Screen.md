@@ -11,7 +11,7 @@ favorVaelTorith: "0"
 favorDarran-Kar: "0"
 favorAetheryn: "1"
 favorSeliar: "0"
-favorVelkaris: "0"
+favorVelkaris: "5"
 favorMyrianor: "0"
 ---
 > 
