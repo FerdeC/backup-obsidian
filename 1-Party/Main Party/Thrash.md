@@ -11,8 +11,8 @@ Race:
   - Hobgoblin
 level: 3
 hp: 36
-ac: 18
-modifier: 0
+ac: 17
+modifier: 3
 pasperc: 0
 Status: Active
 PlayerKnownLanguages:
