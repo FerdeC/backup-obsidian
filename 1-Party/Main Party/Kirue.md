@@ -13,7 +13,7 @@ level: 3
 hp: 28
 ac: 17
 modifier: 1
-pasperc: 8
+pasperc: 10
 Status: Active
 PlayerKnownLanguages:
 ---
