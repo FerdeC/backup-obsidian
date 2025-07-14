@@ -77,17 +77,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Party/Main Party/Kaia.md",
+                "file": "1-Party/Main Party/Kirue.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Kaia"
+              "title": "Kirue"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -353,18 +353,18 @@
       }
     ]
   },
-  "active": "12871a418db78413",
+  "active": "3acf779fc9980c28",
   "lastOpenFiles": [
+    "1-Party/Main Party/Kirue.md",
+    "1-Party/Main Party/Kaia.md",
+    "2-World/deiades.md",
     "1-DM Toolkit/Home.md",
     "1-DM Toolkit/DM Screen.md",
-    "1-Party/Main Party/Kaia.md",
     "5-Session Journals/03. El camino a Vael Torith.md",
     "2-World/Eliaran.md",
-    "2-World/deiades.md",
     "z_Assets/Pasted image 20250604201216.png",
     "2-World/Varkass.md",
     "1-Party/Main Party/Roglic.md",
-    "1-Party/Main Party/Kirue.md",
     "1-Party/Main Party/Main Party.md",
     "1-Party/Main Party/Thrash.md",
     "compendium/tables/armor-and-shields-armor.md",
