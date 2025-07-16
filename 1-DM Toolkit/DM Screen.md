@@ -107,15 +107,6 @@ favorMyrianor: "0"
 | | | | Velkaris | `=this.favorVelkaris` || | |
 | | | | Myrianor | `=this.favorMyrianor` || | |
 
-## Quests
-
-```dataview
-TABLE WITHOUT ID link(file.name) AS "Quest Name", questStatus AS "Status", questGiver AS "Quest Giver", questLocationObtained AS "Location", questSessionObtained AS "Session", questLootAvail AS "Available Rewards", questLookEarned AS "Acquired Rewards"
-from "2-Campaign" AND #quest SORT link(file.name) ASC
-
-```
-
-
 ## Tabla de Inestabilidad Mágica (D100)
 
 Tira un d100 cada vez que se lance un hechizo en este reino inestable.
@@ -144,6 +135,15 @@ Tira un d100 cada vez que se lance un hechizo en este reino inestable.
 |91-95|**Golpe Errante**|Sí|Funciona normal; lanzador recibe 1d4 daño del mismo tipo de hechizo.|
 |96-99|**Potencia Inesperada**|No|Hechizo potenciado al máximo; daño total x 2.|
 |**100**|**Milagro Arcano**|No|Hechizo potenciado al máximo; **daño total x 3 a TODOS los enemigos** en alcance/área.|
+
+## Quests
+
+```dataview
+TABLE WITHOUT ID link(file.name) AS "Quest Name", questStatus AS "Status", questGiver AS "Quest Giver", questLocationObtained AS "Location", questSessionObtained AS "Session", questLootAvail AS "Available Rewards", questLookEarned AS "Acquired Rewards"
+from "2-Campaign" AND #quest SORT link(file.name) ASC
+
+```
+
 
 # TEST 
 arcana1::`$=dv.page("1-Party/Main Party/Kaia.md").pasperc`
