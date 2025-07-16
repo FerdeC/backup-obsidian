@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -347,11 +347,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77779000071819ce",
+  "active": "91d44d5b230d09f0",
   "lastOpenFiles": [
+    "1-DM Toolkit/DM Screen.md",
     "5-Session Journals/03. El camino a Vael Torith.md",
     "1-DM Toolkit/DnD5e-SideScreen.md",
-    "1-DM Toolkit/DM Screen.md",
     "2-Campaign/Quests/A - Investigación del templo Gharah'Te.md",
     "1-Party/Main Party/Kirue.md",
     "1-Party/Main Party/Kaia.md",
