@@ -34,10 +34,10 @@
       "note": "Thrash",
       "path": "1-Party/Main Party/Thrash.md",
       "name": "Thrash",
-      "ac": 18,
+      "ac": 17,
       "hp": 36,
       "level": 3,
-      "modifier": 0,
+      "modifier": 3,
       "player": true
     }
   ],
@@ -223,8 +223,8 @@
         "modifier": 0,
         "hp": 36,
         "currentMaxHP": 36,
-        "ac": 18,
-        "currentAC": 18,
+        "ac": 17,
+        "currentAC": 17,
         "note": "Thrash",
         "path": "1-Party/Main Party/Thrash.md",
         "id": "ID_fabb58caa97a",

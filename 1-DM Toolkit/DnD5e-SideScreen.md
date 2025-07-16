@@ -1,6 +1,12 @@
 ---
+<<<<<<< HEAD
 xpActual: 1700
 nivel: 3
+=======
+obsidianUIMode: preview
+nivel: 3
+xpActual: 2000
+>>>>>>> origin/master
 ---
 
 
